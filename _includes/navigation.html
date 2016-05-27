@@ -1,0 +1,15 @@
+
+<div id="navigation">
+
+    <ul>
+			{% assign pages = site.pages | sort:"weight"  %}
+      {% for p in pages %}
+        {% if p.active == true%}
+        <li {% if p.url == page.url %}class="active"{% endif %} >
+          <a href="{{site.url}}{{site.baseurl}}{{ p.url }}"> → {{ p.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+</div>
