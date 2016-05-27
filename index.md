@@ -6,4 +6,52 @@ active: true
 permalink: index.html
 ---
 
-# Home Page
+<!--Slideshow files-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="files/slideshow/jquery.bxslider.min.js"></script>
+<link href="files/slideshow/jquery.bxslider.css" rel="stylesheet" />
+<script>
+		$(document).ready(function(){
+				$('.bxslider').bxSlider({
+						pagerCustom: '#bx-pager',
+						adaptiveHeight: true,
+						auto: true,
+						slideWidth: 900
+				});
+		});
+
+		function resizeIframe(obj) {
+				obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+		}
+</script>
+
+![Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist](./files/img/klopp_lerro_train.jpg)
+
+###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
+
+Welcome to the Richland Borough Website.
+Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
+is a picturesque town named  for its fertile soil.
+<img class="img_float" src="./files/img/welcome_to_richland.png" alt="Town Sign">
+Incorporated from Millcreek Township in 1906, the town
+is unique in that it has an active railroad crossing
+which intersects the town square. Main Street and Race Street, which also
+intersect at the square, link the northern and southern portions, as well as
+the eastern and western portions, of the borough. Thus, the crossing divides
+the entire town causing Richland to be mentioned in "Ripley's Believe It or Not"
+books and on the televised game show "Jeopardy".
+
+<!--slideshow-->
+<div class="slideshow">
+	<ul class="bxslider">
+		<li><img src="./files/img/sleding_on_main_st_looking_west.png" /></li>
+		<li><img src="./files/img/memorial.png" /></li>
+		<li><img src="./files/img/welcome2.png" /></li>
+		<li><img src="./files/img/main_st_looking_at_east.png" /></li>
+		<li><img src="./files/img/main_st_near_depot.png" /></li>
+		<li><img src="./files/img/south_race_st.png" /></li>
+		<li><img src="./files/img/playground.png" /></li>
+		<li><img src="./files/img/carnival_grounds.png" /></li>
+	</ul>
+</div>
+<!--end slideshow-->

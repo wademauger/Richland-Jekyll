@@ -52,6 +52,7 @@ html    {
 }
 
 .img_float  {
+    width: 300px!important;
     float: right;
 }
 
@@ -335,11 +336,6 @@ html    {
     background-color: white;
 }
 
-#ordinances {
-    margin: 20px;
-    font-size: 15pt;
-    text-align: center;
-}
 
 #ordinances h1  {
     font-size: 32pt;

@@ -2,6 +2,9 @@
   padding: 30px;
 
   img {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
     width: 600px;
     display: block;
     margin-left: auto;
@@ -10,12 +13,27 @@
     margin-bottom: 20px;
   }
 
+	table {
+		margin-top: 40px;
+	}
+
   h1 {
     font-size: 24pt;
   }
 
-  p {
+	td {
+	}
+
+  p{
     margin: 12px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  h6 {
+    font-size: 15px;
+    text-align: center;
+    display: block;
   }
 
 }
@@ -42,3 +60,12 @@
 		color: #C70039;
 	}
 }
+
+.slideshow {
+	margin-top: 200px;
+}
+
+.bxslider{
+  padding: 0px!important;
+}
+
