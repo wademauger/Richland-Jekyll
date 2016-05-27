@@ -5,9 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-production: true
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://www.richlandborough.org" # the base hostname & protocol for your site
+production: false
+baseurl: "/_site" # the subpath of your site, e.g. /blog
+url: "/home/wade/Development/richlandJekyll" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
