@@ -1,6 +1,9 @@
 ---
 layout: default
-title: Events
+title: Right to Know
+weight: 10
+active: true
+permalink: right_to_know.html
 ---
 
 # Right to Know

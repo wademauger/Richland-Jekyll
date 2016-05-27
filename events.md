@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Events
+permalink: events.html
+weight: 10
+active: true
 ---
 
 # Community Events Board
