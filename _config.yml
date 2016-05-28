@@ -9,6 +9,7 @@ production: true
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.richlandborough.org" # the base hostname & protocol for your site
 exclude: [vendor]
+
 # Build settings
 markdown: kramdown
 keep_files: ["/files"]

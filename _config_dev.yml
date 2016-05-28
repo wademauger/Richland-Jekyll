@@ -8,6 +8,7 @@
 production: false
 baseurl: "/_site" # the subpath of your site, e.g. /blog
 url: "/home/wade/Development/richlandJekyll" # the base hostname & protocol for your site
+exclude: [vendor]
 
 # Build settings
 markdown: kramdown
