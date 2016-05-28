@@ -63,14 +63,14 @@ For more information about the Neptune Fire Company, including events, happening
 <!--slideshow-->
 <div class="fire slideshow">
 	<ul class="bxslider">
-		<li><img src="./files/img/fire_slide/img197196421.JPEG" /></li>
-		<li><img src="./files/img/fire_slide/img197196437.JPEG" /></li>
-		<li><img src="./files/img/fire_slide/img197196437.jpg" /></li>
-		<li><img src="./files/img/fire_slide/img197196453.jpg" /></li>
-		<li><img src="./files/img/fire_slide/img197196468.jpg" /></li>
-		<li><img src="./files/img/fire_slide/img197196484.jpg" /></li>
-		<li><img src="./files/img/fire_slide/img197196500.jpg" /></li>
-		<li><img src="./files/img/fire_slide/img197196515.jpg" /></li>
+		<li><img alt="fire slide" src="./files/img/fire_slide/img197196421.JPEG" /></li>
+		<li><img alt="fire slide" src="./files/img/fire_slide/img197196437.JPEG" /></li>
+		<li><img alt="fire slide" src="./files/img/fire_slide/img197196437.jpg" /></li>
+		<li><img alt="fire slide" src="./files/img/fire_slide/img197196453.jpg" /></li>
+		<li><img alt="fire slide" src="./files/img/fire_slide/img197196468.jpg" /></li>
+		<li><img alt="fire slide" src="./files/img/fire_slide/img197196484.jpg" /></li>
+		<li><img alt="fire slide" src="./files/img/fire_slide/img197196500.jpg" /></li>
+		<li><img alt="fire slide" src="./files/img/fire_slide/img197196515.jpg" /></li>
 	</ul>
 </div>
 <!--end slideshow-->

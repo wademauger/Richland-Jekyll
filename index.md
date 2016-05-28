@@ -44,14 +44,14 @@ books and on the televised game show "Jeopardy".
 <!--slideshow-->
 <div class="slideshow">
 	<ul class="bxslider">
-		<li><img src="./files/img/sleding_on_main_st_looking_west.png" /></li>
-		<li><img src="./files/img/memorial.png" /></li>
-		<li><img src="./files/img/welcome2.png" /></li>
-		<li><img src="./files/img/main_st_looking_at_east.png" /></li>
-		<li><img src="./files/img/main_st_near_depot.png" /></li>
-		<li><img src="./files/img/south_race_st.png" /></li>
-		<li><img src="./files/img/playground.png" /></li>
-		<li><img src="./files/img/carnival_grounds.png" /></li>
+		<li><img alt="image" src="./files/img/sleding_on_main_st_looking_west.png" /></li>
+		<li><img alt="image" src="./files/img/memorial.png" /></li>
+		<li><img alt="image" src="./files/img/welcome2.png" /></li>
+		<li><img alt="image" src="./files/img/main_st_looking_at_east.png" /></li>
+		<li><img alt="image" src="./files/img/main_st_near_depot.png" /></li>
+		<li><img alt="image" src="./files/img/south_race_st.png" /></li>
+		<li><img alt="image" src="./files/img/playground.png" /></li>
+		<li><img alt="image" src="./files/img/carnival_grounds.png" /></li>
 	</ul>
 </div>
 <!--end slideshow-->

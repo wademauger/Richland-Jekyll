@@ -10,7 +10,7 @@ permalink: in_the_community.html
 
 <div id="our_community_content">
 	<div class="business_card">
-			<img class="community_img" src="./files/img/richland_library.png" height="160"><br>
+			<img class="community_img" alt="church" src="./files/img/richland_library.png" height="160"><br>
 			<h1>Richland Public Library</h1>
 			<h3>111 E. Main Street</h3><br>
 			<h3>Richland, PA 17087</h3><br><br>
@@ -29,7 +29,7 @@ permalink: in_the_community.html
 	</div>
 
 	<div class="business_card">
-			<img class="community_img" src="./files/img/fz_school.png" height="160"><br>
+			<img class="community_img" alt="church" src="./files/img/fz_school.png" height="160"><br>
 			<h1>Fort Zeller Elementary School</h1>
 			<h3>243 North Sheridan Road</h3><br>
 			<h3>Richland, PA 17087</h3><br><br>
@@ -48,7 +48,7 @@ permalink: in_the_community.html
 	</div>
 
 	<div class="business_card">
-			<img class="community_img" src="./files/img/lutheran_church.png" height="160"><br>
+			<img class="community_img" alt="church" src="./files/img/lutheran_church.png" height="160"><br>
 			<h1>Millcreek Lutheran Church</h1>
 			<h3>221 North Sheridan Road</h3><br>
 			<h3>Newmanstown, PA 17073</h3><br><br>
@@ -67,7 +67,7 @@ permalink: in_the_community.html
 	</div>
 
 	<div class="business_card">
-			<img class="community_img" src="./files/img/church1.png" height="160"><br>
+			<img class="community_img" alt="church" src="./files/img/church1.png" height="160"><br>
 			<h1>Grace United Church of Christ</h1>
 			<h3>22 East Park Street</h3><br>
 			<h3>Richland, PA 17087</h3><br><br>
@@ -86,7 +86,7 @@ permalink: in_the_community.html
 	</div>
 
 	<div class="business_card">
-			<img class="community_img" src="./files/img/church3.png" height="160"><br>
+			<img class="community_img" alt="church" src="./files/img/church3.png" height="160"><br>
 			<h1>Faith Community Church</h1>
 			<h3>206 East Main Street</h3><br>
 			<h3>Richland, PA 17087</h3><br><br>
@@ -105,7 +105,7 @@ permalink: in_the_community.html
 	</div>
 
 	<div class="business_card">
-			<img class="community_img" src="./files/img/church2.png" height="160"><br>
+			<img class="community_img" alt="church" src="./files/img/church2.png" height="160"><br>
 			<h1>Richland Church of the Brethren</h1>
 			<h3>215 S Race St.</h3><br>
 			<h3>PO Box 677</h3><br>
@@ -126,7 +126,7 @@ permalink: in_the_community.html
 	</div>
 
 	<div class="business_card">
-			<img class="community_img" src="./files/img/church4.png" height="160"><br>
+			<img class="community_img" alt="church" src="./files/img/church4.png" height="160"><br>
 			<h1>Tulpehocken United Church of Christ</h1>
 			<h3>961 Tulpehocken Road</h3><br>
 			<h3>Richland, PA 17087</h3><br><br>
