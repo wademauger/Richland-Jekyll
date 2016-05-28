@@ -12,3 +12,5 @@ url: "http://www.richlandborough.org" # the base hostname & protocol for your si
 # Build settings
 markdown: kramdown
 keep_files: ["/files"]
+ 
+array: []

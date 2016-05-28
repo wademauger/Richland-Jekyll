@@ -14,7 +14,6 @@
   }
 
 	table {
-		margin-top: 40px;
 	}
 
   h1 {
@@ -73,3 +72,43 @@
   padding: 0px!important;
 }
 
+#minutes_table {
+  margin: auto;
+  margin-top: 40px; 
+  width: 400px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #d7af39;
+  
+  a {
+    font-size: 15pt;
+  }
+
+  tr {
+    height: 40px;
+    text-align: center;
+  }
+
+  .odd {
+    background-color: #325272;
+  }
+
+}
+
+#our_community_content {
+  img{
+		height: 160px;
+		width: 160px;
+		display: block;
+    position: relative;
+    float: left;
+    margin: 17px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+  }
+
+	table {
+		margin-left: 200px;
+	}
+}
