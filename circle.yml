@@ -1,4 +1,4 @@
 machine:
   ruby:
-    version: 2.3.1p112
+    version: rbx-2.2.6
 
