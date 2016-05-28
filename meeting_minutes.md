@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: meetings
 title: Meeting Minutes
 weight: 10
 active: true
