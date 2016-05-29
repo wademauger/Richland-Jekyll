@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/wadeanthony0100/Richland-Jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/wadeanthony0100/Richland-Jekyll/tree/master)
 
-https://codeship.com/projects/154873/status?branch=master
+![Code Ship](https://codeship.com/projects/154873/status?branch=master)
 
 ---
 
