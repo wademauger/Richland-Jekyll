@@ -2,7 +2,13 @@ machine:
   ruby:
     version: 2.3.0
     
-    
 test:
   pre:
     - ./script/cibuild
+
+deployment:
+  automerge:
+    branch: master
+    commands:
+      - echo "DEPLOYING..."
+      - ssh -p 2222 richboro@richlandborough.org "cd Development/; git pull; jekyll b; exit"
