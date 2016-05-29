@@ -11,4 +11,4 @@ deployment:
     branch: master
     commands:
       - echo "DEPLOYING..."
-      - ssh -p 2222 richboro@richlandborough.org "cd Development/; git pull; jekyll b; exit"
+      - ssh -p 2222 richboro@richlandborough.org "cd Dev/; git pull; jekyll b; exit"
