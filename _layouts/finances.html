@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+  <div class="content">
+    {% include header.html %}
+    {% include sidebar.html %}
+    <div class="markdown">
+    <div id="finances_content">
+      {{ content }}
+    </div>
+    </div><!--close div markdown-->
+  </div> <!--close div content-->
+    {% include footer.html %}
+  </body>
+</html>
