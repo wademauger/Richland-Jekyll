@@ -11,4 +11,4 @@ deployment:
     branch: master
     commands:
       - echo "DEPLOYING..."
-      - scp -P 2222 -r _site/* richboro@richlandborough.org:~/public_html/DevDeploy
+      - scp -P 2222 -r _site/* richboro@richlandborough.org:~/public_html/
