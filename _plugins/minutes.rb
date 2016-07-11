@@ -4,21 +4,21 @@ module Jekyll
     def initialize(tag_name, text, tokens)
       super
       @text = text
-			@monthLookup = {
-											"January" => 1, 
-											"February" => 2, 
-											"March" => 3, 
-											"April" => 4, 
-											"May" => 5, 
-											"June" => 6, 
-											"July" => 7, 
-											"August" => 8, 
-											"September" => 9, 
-											"October" => 10, 
-											"November" => 11, 
-											"December" => 12
-										 }
-			@monthLookup.default = 1
+      @monthLookup = {
+        "January" => 1, 
+        "February" => 2, 
+        "March" => 3, 
+        "April" => 4, 
+        "May" => 5, 
+        "June" => 6, 
+        "July" => 7, 
+        "August" => 8, 
+        "September" => 9, 
+        "October" => 10, 
+        "November" => 11, 
+        "December" => 12
+      }
+      @monthLookup.default = 1
       @openTable = '_plugins/open_table.html'
       @closeTable = '_plugins/close_table.html'
       @openRowEven = '_plugins/open_table_element_even.html'
@@ -26,11 +26,11 @@ module Jekyll
       @closeRow = '_plugins/close_table_element.html'
     end
 
-		def pathToMonthYear(path)
-			filename = path.split('/').pop()
-			month_day = filename.split('.')[0].split('_')
-			"#{month_day[1]} #{month_day[2]} <br />"
-		end
+    def pathToMonthYear(path)
+      filename = path.split('/').pop()
+      month_day = filename.split('.')[0].split('_')
+      "#{month_day[1]} #{month_day[2]} <br />"
+    end
 
     def makeLink(strMonthYear)
       # <a href="meeting_minutes/Minutes_January_2013.pdf">January 2013</a>
@@ -48,21 +48,21 @@ module Jekyll
     end
 
     def getMonthYears(context)
-			files = context[@markup.strip]
-			dateTimes = []
-			files.each do |file|
+      files = context[@markup.strip]
+      dateTimes = []
+      files.each do |file|
         if file.path.split('/').include? 'meeting_minutes'
           monthYear = pathToMonthYear(file.path).split()
           thisDate = DateTime.new(monthYear[1].to_i, @monthLookup[monthYear[0]].to_i) # New datetime with the monthYear's month number and year
           dateTimes << thisDate
         end
-			end
-			dateTimes.sort_by!{ |date| -date.to_date.to_time.to_i }
-			monthYears = []
-			dateTimes.each do |dateTimeObj|
-				monthYears << dateTimeObj.strftime('%B %Y') + "\n"
-			end
-			monthYears
+      end
+      dateTimes.sort_by!{ |date| -date.to_date.to_time.to_i }
+      monthYears = []
+      dateTimes.each do |dateTimeObj|
+        monthYears << dateTimeObj.strftime('%B %Y') + "\n"
+      end
+      monthYears
     end
 
     def genHTML(monthYears)
