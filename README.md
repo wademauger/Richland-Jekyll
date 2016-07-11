@@ -53,7 +53,7 @@ You must have `Git` and `Ruby` installed on your system, and paths properly conf
 
 - `git clone <repo url>`
 - `gem install bundler`
-- `bundle install
+- `bundle install`
 - Develop things...
 
 ### Build
