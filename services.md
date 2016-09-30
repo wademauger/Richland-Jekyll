@@ -6,6 +6,10 @@ active: true
 permalink: services.html
 ---
 
+<script>
+  mixpanel.track("Services Page");
+</script>
+
 # Services
 
 ## Local Law Enforcement

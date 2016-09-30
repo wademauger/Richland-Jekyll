@@ -6,6 +6,10 @@ active: true
 permalink: ordinances.html
 ---
 
+<script>
+  mixpanel.track("Ordinances Page");
+</script>
+
 # Ordinances
 
 ## 1. Grass, Weeds, Trees:

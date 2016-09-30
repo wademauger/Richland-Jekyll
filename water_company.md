@@ -6,6 +6,10 @@ active: true
 permalink: water_company.html
 ---
 
+<script>
+  mixpanel.track("Water Company Page");
+</script>
+
 # Water Company
 
 Every year the Richland Borough has to send out a Consumer Confidence Report (CCR) for our water company. See the 2015 [CRR](./files/2015CRR.pdf) here!

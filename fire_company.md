@@ -6,6 +6,10 @@ active: true
 permalink: fire_company.html
 ---
 
+<script>
+  mixpanel.track("Fire Company Page");
+</script>
+
 <!--Facebook SDK-->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {

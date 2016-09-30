@@ -6,6 +6,10 @@ active: true
 permalink: bullying.html
 ---
 
+<script>
+  mixpanel.track("Bullying Page");
+</script>
+
 # Richland Borough Council Policy on Bullying
 
 ## Purpose

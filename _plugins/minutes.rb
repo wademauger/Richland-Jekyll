@@ -33,18 +33,10 @@ module Jekyll
     end
 
     def makeLink(strMonthYear)
-      # <a href="meeting_minutes/Minutes_January_2013.pdf">January 2013</a>
+      # <a href="meeting_minutes/Minutes_January_2013.pdf" onclick="mixpanel.track('January 2013');">January 2013</a>
       month = strMonthYear.split(' ')[0]
       year = strMonthYear.split(' ')[1]
-      link = '<a href="meeting_minutes/Minutes_' 
-      link << month
-      link << '_'
-      link << year
-      link << '.pdf">'
-      link << month
-      link << ' '
-      link << year
-      link << '</a>'
+      "<a href=\"meeting_minutes/Minutes_#{month}_#{year}.pdf\" onclick=\"mixpanel.track('Minutes #{month} #{year}');\">#{month} #{year}</a>"
     end
 
     def getMonthYears(context)

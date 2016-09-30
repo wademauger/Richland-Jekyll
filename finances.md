@@ -6,6 +6,10 @@ active: true
 permalink: finances.html
 ---
 
+<script>
+  mixpanel.track("Finances Page");
+</script>
+
 # Finances
 
 | [2016 Budget](./files/Budget_2016.pdf) |
