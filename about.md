@@ -6,6 +6,11 @@ weight: 2
 active: true
 ---
 
+<script>
+  mixpanel.track("About Page");
+</script>
+
+
 # Richland Borough
 
 ## 5 Pine Street, P.O. Box 676<br /> Richland, PA 17087

@@ -12,6 +12,7 @@ permalink: index.html
 <link href="files/slideshow/jquery.bxslider.css" rel="stylesheet" />
 <script>
 		$(document).ready(function(){
+        mixpanel.track("Home Page");
 				$('.bxslider').bxSlider({
 						pagerCustom: '#bx-pager',
 						adaptiveHeight: true,

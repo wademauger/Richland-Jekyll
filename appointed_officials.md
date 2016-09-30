@@ -6,6 +6,10 @@ active: true
 permalink: appointed_officials.html
 ---
 
+<script>
+  mixpanel.track("Appointed Officials Page");
+</script>
+
 # Appointed Officials
 
 |**Ray Shanaman**                |  |**Dennis Seldomridge**

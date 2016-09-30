@@ -6,6 +6,10 @@ weight: 10
 active: true
 ---
 
+<script>
+  mixpanel.track("History Page");
+</script>
+
 # A Brief History of Richland
 
 Among the early settlers in the vicinity were a few Landis families and originally the town was named after them - Landisville. However, there was another Landisville in the adjoining County of Lancaster and this resulted in a confusing situation between the two towns bearing the same name. The name of Richland was selected because of its surroundings and the town soon established for itself an independent reputation.

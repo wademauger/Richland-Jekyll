@@ -6,6 +6,10 @@ active: true
 permalink: right_to_know.html
 ---
 
+<script>
+  mixpanel.track("Right To Know Page");
+</script>
+
 # Right to Know
 
 In accordance with the Pennsylvania Right-to-Know Act (Act 3 of 2008), records maintained by Richland Borough may be public, unless the records are

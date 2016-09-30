@@ -6,6 +6,10 @@ active: true
 permalink: heritage_society.html
 ---
 
+<script>
+  mixpanel.track("Heritags Society Page");
+</script>
+
 # Richland Heritage Society
 
 ![Heritage Society](./files/img/heritage_society.png)

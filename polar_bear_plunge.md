@@ -6,6 +6,10 @@ active: true
 permalink: polar_bear_plunge.html
 ---
 
+<script>
+  mixpanel.track("Polar Bear Plunge Page");
+</script>
+
 # Polar Bear Plunge
 
 ### Willow Springs Park<br />199 Millardsville Road, Richland, PA

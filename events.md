@@ -6,6 +6,10 @@ weight: 10
 active: true
 ---
 
+<script>
+  mixpanel.track("Events Page");
+</script>
+
 # Community Events Board
 
 <div>

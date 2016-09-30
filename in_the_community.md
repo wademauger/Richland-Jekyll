@@ -6,6 +6,10 @@ active: true
 permalink: in_the_community.html
 ---
 
+<script>
+  mixpanel.track("In The Community Page");
+</script>
+
 # In The Community
 
 <div id="our_community_content">
