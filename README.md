@@ -9,7 +9,7 @@ Yeah, I guess I should document this. Might as well do that now. Some day I'll p
 ## The Old Way
 
 Richland's website was originally built under the assumtion that maitenence would 
-be handed off the the borough secretary. As such, the original was made 
+be handed off to the the borough secretary. As such, the original was made 
 using a WYSIWYG that was reccomended by someone who maintains a neighboring
 borough's website. When it was decided that I would be maintaining the 
 website, I quickly abandoned the program, and began maintaining a static
