@@ -80,7 +80,7 @@ I usually recieve this item as a word document over email. Use your conversion t
 
 All the pages are defined in Markdown in the root of the project. If you want to add a page, I would make a copy of `refuse.md` and work from there. Note that the navigation order is based on the `weight` attribute in the file's header. Unless you want to pull a page to the beginning of the navigation order, leave it at 10 so it defaults to alphabetical order with the other pages in that section.
 
-Markdown is pretty simple, this README is written in is, as well as most of the pages (except the ones I didn't feel like rewriting). If you need to lookup a reference, I like [this one](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Markdown is pretty simple, this README is written in it, as well as most of the pages (except the ones I didn't feel like rewriting). If you need to lookup a reference, I like [this one](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 Removing pages is even easier, just delete the file and `git add` it, `commit`, and `push`. Don't worry, you can always step back in the version control history if you ever want to bring it back online.
 
