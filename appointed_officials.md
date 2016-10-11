@@ -18,7 +18,7 @@ permalink: appointed_officials.html
 |                                |  |Term ends 12/31/2019
 |**James Niethammer**            |  |
 |Vice President                  |  |**Travis Randler**
-|Chairman of Water Committee     |  |Public Safety Committee member
+|Chairman of Water Committee     |  |Public Safety Committee Member
 |Chairman of Finance Committee   |  |Term ends 12/31/2017
 |Public Safety Committee member  |  |
 |Term ends 12/31/2017            |  |**John Mueller**
@@ -26,11 +26,11 @@ permalink: appointed_officials.html
 |**Larry Hartman**               |  |Highway Committee member
 |Chairman of Highway Committee   |  |Term ends 12/31/2017
 |Property Committee member       |  |
-|Term ends 12/31/2019            |  |**Daniel Auman**
-|                                |  |Water Committee member
-|**Matthew Johnson**             |  |Term ends 12/31/2019
+|Term ends 12/31/2019            |  |**Kelly Bricker**
+|                                |  |Property Committee Member
+|**Matthew Johnson**             |  |Term ends 12/31/2017
 |Highway Committee member        |  |
-|Property Committee member       |  |
+|Water Committee member          |  |
 |Term ends 12/31/2019            |  |
 
 # Borough Employees
