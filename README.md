@@ -10,7 +10,7 @@ Yeah, I guess I should document this. Might as well do that now. Some day I'll p
 
 Richland's website was originally built under the assumtion that maitenence would 
 be handed off to the the borough secretary. As such, the original was made 
-using a WYSIWYG that was reccomended by someone who maintains a neighboring
+using a WYSIWYG that was recommended by someone who maintains a neighboring
 borough's website. When it was decided that I would be maintaining the 
 website, I quickly abandoned the program, and began maintaining a static
 HTML/CSS/some JavaScript-version at [this repository](https://github.com/wadeanthony0100/Richland-Borough-dot-org).
@@ -41,7 +41,7 @@ for the [Meeting Minutes page](richlangborough.org/meeting_minutes). Yeah, it's 
 but it does the job, and it only runs at compile time, so the complexity is as good as arbitrary.
 
 To improve the issues with broken links, there is a rigorous suite of tests that a build must pass in order to
-be pushed into production. In picture form, it looks like this:
+be pushed into production. This is part of the build system that is run on CircleCI every time a commit is pushed to master. The entire project is maintained in a CI/CD (Continuous Integration / Continuous Deployment) system, which looks like this:
 
 ![CI/CD Diagram](RichlandCicdDiagram.png)
 
@@ -49,7 +49,7 @@ be pushed into production. In picture form, it looks like this:
 
 ### Setup
 
-You must have `Git` and `Ruby` installed on your system, and paths properly configured. Use Homebrew on Mac, or your package manager of choice on Linux. If you're on Windows, I dunno good luck.
+You must have `Git` and `Ruby` installed on your system, and paths properly configured. I've found [RVM](https://rvm.io/rvm/install) to be the easiest way to get up and running with Ruby on Mac and Linux- especially Mac, which relies a lot on Ruby. If you're on Windows, I dunno good luck.
 
 - `git clone <repo url>`
 - `gem install bundler`
