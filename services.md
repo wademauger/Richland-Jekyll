@@ -18,7 +18,7 @@ permalink: services.html
 
 |Robert Rittle                          |
 |Phone: 717-866-5601                    |
-|email: richlandborough@comcast.net     |
+|email: robertrceorittle@gmail.com      |
 
 ## <br />Criminal Enforcement
 
