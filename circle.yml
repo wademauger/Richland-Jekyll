@@ -1,7 +1,7 @@
 machine:
   ruby:
     version: 2.3.0
-    
+
 test:
   pre:
     - ./script/cibuild
@@ -12,3 +12,15 @@ deployment:
     commands:
       - echo "DEPLOYING..."
       - scp -P 2222 -r _site/* richboro@richlandborough.org:~/public_html/
+  staging:
+    branch: master
+    codedeploy:
+      appname-1234:
+        application_root: /
+        region: us-east-1
+        revision_location:
+          revision_type: S3
+          s3_location:
+            bucket: richland-main
+            key_pattern: appname-1234-{BRANCH}-{SHORT_COMMIT}
+        deployment_group: my-deployment-group
