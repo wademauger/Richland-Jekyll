@@ -10,4 +10,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync _site/ s3://richland-main.s3.amazonaws.com/ --delete
+      - aws s3 sync _site/ s3://richland-main/ --delete
