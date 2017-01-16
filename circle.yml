@@ -7,15 +7,7 @@ test:
     - ./script/cibuild
 
 deployment:
-  staging:
+  prod:
     branch: master
-    codedeploy:
-      appname-1234:
-        application_root: /
-        region: us-east-2
-        revision_location:
-          revision_type: S3
-          s3_location:
-            bucket: richland-main
-            key_pattern: richland-main-1234-{BRANCH}-{SHORT_COMMIT}
-        deployment_group: my-deployment-group
+    commands:
+      - aws s3 sync _site/ s3://richland-main.s3-website.us-east-2.amazonaws.com --delete
