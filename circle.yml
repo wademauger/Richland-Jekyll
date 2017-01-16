@@ -7,11 +7,6 @@ test:
     - ./script/cibuild
 
 deployment:
-  automerge:
-    branch: master
-    commands:
-      - echo "DEPLOYING..."
-      - scp -P 2222 -r _site/* richboro@richlandborough.org:~/public_html/
   staging:
     branch: master
     codedeploy:
