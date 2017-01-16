@@ -12,7 +12,7 @@ deployment:
     codedeploy:
       appname-1234:
         application_root: /
-        region: us-east-1
+        region: Ohio
         revision_location:
           revision_type: S3
           s3_location:
