@@ -1,11 +1,10 @@
-# [Richland Jekyll](richlandborough.org)
+# Richland Jekyll
 
 [![CircleCI](https://circleci.com/gh/wadeanthony0100/Richland-Jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/wadeanthony0100/Richland-Jekyll/tree/master)
 
-Updated Jan 17, 2017
+---
 
-This is a Jekyll website for the [borough of Richland in Lebanon, Pennsylvania](https://en.wikipedia.org/wiki/Richland,_Pennsylvania). It includes
-different pages describing recurring events, public functions, employees of the borough, and other pertinent peices of information.
+Yeah, I guess I should document this. Might as well do that now. Some day I'll probably have to hand this off to someone, so it would probably be a good idea to write stuff down now while I remember how this works.
 
 ## The Old Way
 
@@ -42,9 +41,7 @@ for the [Meeting Minutes page](richlangborough.org/meeting_minutes). Yeah, it's 
 but it does the job, and it only runs at compile time, so the complexity is as good as arbitrary.
 
 To improve the issues with broken links, there is a rigorous suite of tests that a build must pass in order to
-be pushed into production. This is part of the build system that is run on CircleCI every time a commit is pushed
-to master. The entire project is maintained in a CI/CD (Continuous Integration / Continuous Deployment) system,
-which looks like this:
+be pushed into production. This is part of the build system that is run on CircleCI every time a commit is pushed to master. The entire project is maintained in a CI/CD (Continuous Integration / Continuous Deployment) system, which looks like this:
 
 ![CI/CD Diagram](RichlandCicdDiagram.png)
 
