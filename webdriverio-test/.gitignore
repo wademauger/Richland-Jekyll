@@ -3,9 +3,11 @@ logs
 *.log
 npm-debug.log*
 
-#jars
+# webdriver.io
 *.jar
-chromedriver
+*driver
+errorShots/
+
 
 # Runtime data
 pids
