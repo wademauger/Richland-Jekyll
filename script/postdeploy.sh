@@ -6,13 +6,16 @@ curl -O http://selenium-release.storage.googleapis.com/3.0/selenium-server-stand
 
 if [[ $string == *"darwin"* ]]; then
   # download and unpack the OSX version
-  echo "OSX detected, downloading geckodriver for Mac OS..."
-  curl -L https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-macos.tar.gz | tar xz
+  echo "OSX detected, downloading chrome driver for Mac OS..."
+  curl -L https://chromedriver.storage.googleapis.com/2.27/chromedriver_mac64.zip | funzip  > chromedriver
 else
   # download and unpack the Linux version
-  echo "Linux detected, downloading geckodriver for 64 Bit Linux OS's..."
-  curl -L https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-linux64.tar.gz | tar xz	
+  echo "Linux detected, downloading chrome driver for 64 Bit Linux OS's..."
+  curl -L https://chromedriver.storage.googleapis.com/2.27/chromedriver_linux64.zip | gzip -dc > chromedriver
 fi
+
+chmod +x chromedriver
+./chromedriver &
 
 echo "Starting selenium server..."
 java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.0.1.jar > seleniumServer.log 2>&1 &

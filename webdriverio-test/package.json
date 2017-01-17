@@ -1,8 +1,9 @@
 {
   "name": "richland-jekyll-postdeploy-verification",
   "version": "1.0.0",
-  "description": "",
+  "description": "a test suite",
   "main": "index.js",
+  "repository": "https://github.com/wadeanthony0100/Richland-Jekyll",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js"
   },

@@ -5,6 +5,7 @@ npm-debug.log*
 
 #jars
 *.jar
+chromedriver
 
 # Runtime data
 pids
