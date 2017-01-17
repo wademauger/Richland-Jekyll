@@ -63,6 +63,7 @@ You must have `Git` and `Ruby` installed on your system, and paths properly conf
 
 - `jekyll b`
 - Alternitavely, you can run `jekyll b --watch` to have jekyll rebuild everytime you write changes to a project file.
+- Or you could also run `jekyll serve` to start a local server with autowatching turned on.
 
 ### Deploy
 
@@ -70,6 +71,7 @@ You must have `Git` and `Ruby` installed on your system, and paths properly conf
 - Done. (sort of)
 - You can watch your build run on [CircleCI here](https://circleci.com/gh/wadeanthony0100/Richland-Jekyll). If the build passes, you should be deployed. (But do check the live site to confirm your changes were applied)
 - If the build is rejected, it should tell you what was broken, and you should fix that and push again.
+- After deployment, CircleCI should run webdriver.io tests, and should they fail, the build should also fail and send out an email.
 
 ## Common Tasks
 
