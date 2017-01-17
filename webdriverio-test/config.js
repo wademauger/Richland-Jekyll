@@ -1,6 +1,6 @@
 const moment = require('moment');
 
-const url = 'http://localhost:4000';//'http://www.richlandborough.org';
+const url = 'http://www.richlandborough.org';
 module.exports = {
   url,
   pages: {
