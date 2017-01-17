@@ -13,7 +13,7 @@ if [[ $string == *"darwin"* ]]; then
 elif [[ $CI ]]; then
   # CircleCI ships with chromedriver v27
   echo "CI runtime detected, skipping chromedriver download..."
-  chromedriver
+  chromedriver &
 else
   # download and unpack the Linux version
   echo "Linux detected, downloading chromedriver for 64 Bit Linux OS's..."
