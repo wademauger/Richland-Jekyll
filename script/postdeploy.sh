@@ -1,13 +1,14 @@
 #! /bin/bash
 
 operatingSystem=$OSTYPE
+chromeDriverVersion=$(curl https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
 cd webdriverio-test
 curl -O http://selenium-release.storage.googleapis.com/3.0/selenium-server-standalone-3.0.1.jar
 
 if [[ operatingSystem == *"darwin"* ]]; then
   # download and unpack the OSX version
   echo "OSX detected, downloading chromedriver for Mac OS..."
-  curl -L https://chromedriver.storage.googleapis.com/2.27/chromedriver_mac64.zip | funzip  > chromedriver
+  curl -L https://chromedriver.storage.googleapis.com/$chromeDriverVersion/chromedriver_mac64.zip | funzip  > chromedriver
   chmod +x chromedriver
   ./chromedriver &
 elif [[ $CI ]]; then
@@ -17,7 +18,7 @@ elif [[ $CI ]]; then
 else
   # download and unpack the Linux version
   echo "Linux detected, downloading chromedriver for 64 Bit Linux OS's..."
-  curl -L https://chromedriver.storage.googleapis.com/2.27/chromedriver_linux64.zip | gzip -dc > chromedriver
+  curl -L https://chromedriver.storage.googleapis.com/$chromeDriverVersion/chromedriver_linux64.zip | gzip -dc > chromedriver
   chmod +x chromedriver
   ./chromedriver &
 fi
