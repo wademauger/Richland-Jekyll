@@ -1,6 +1,8 @@
 machine:
   ruby:
     version: 2.3.0
+  node:
+    version: 6.1.0
 
 test:
   pre:
@@ -11,3 +13,4 @@ deployment:
     branch: master
     commands:
       - aws configure set default.s3.signature_version s3v4 && aws s3 cp _site/ s3://richland-main/ --recursive --region us-east-2 
+      - node script/postdeploy
