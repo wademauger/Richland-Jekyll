@@ -7,7 +7,7 @@ permalink: index.html
 ---
 
 <!--Slideshow files-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="files/slideshow/jquery.bxslider.min.js"></script>
 <link href="files/slideshow/jquery.bxslider.css" rel="stylesheet" />
 <script>
