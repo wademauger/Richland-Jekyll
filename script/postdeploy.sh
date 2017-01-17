@@ -15,8 +15,10 @@ else
 fi
 
 echo "Starting selenium server..."
-java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.0.1.jar
+java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.0.1.jar > seleniumServer.log 2>&1 &
 
-echo "installing node dependancies"
+echo "installing node dependancies..."
 npm i
 
+echo "Running tests..."
+npm test

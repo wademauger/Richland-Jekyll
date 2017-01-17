@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "webdriverio": "^4.6.1"
+  },
+  "devDependencies": {
+    "wdio-jasmine-framework": "^0.2.19"
+  }
 }
