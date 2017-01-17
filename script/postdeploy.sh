@@ -1,10 +1,10 @@
 #! /bin/bash
 
-string=$OSTYPE
+operatingSystem=$OSTYPE
 cd webdriverio-test
 curl -O http://selenium-release.storage.googleapis.com/3.0/selenium-server-standalone-3.0.1.jar
 
-if [[ $string == *"darwin"* ]]; then
+if [[ operatingSystem == *"darwin"* ]]; then
   # download and unpack the OSX version
   echo "OSX detected, downloading chromedriver for Mac OS..."
   curl -L https://chromedriver.storage.googleapis.com/2.27/chromedriver_mac64.zip | funzip  > chromedriver
