@@ -10,4 +10,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync _site/ s3://richland-main/ --delete --region us-east-2 
+      - aws s3 sync _site/ s3://richland-main/ --delete --region Ohio
