@@ -17,7 +17,7 @@ elif [[ $CI ]]; then
   echo "CI runtime detected, skipping chromedriver download..."
   chromedriver &
   echo "Starting selenium server..."
-  java -jar -Dwebdriver.chrome.driver=chromedriver selenium-server-standalone-3.0.1.jar > seleniumServer.log 2>&1 &
+  java -jar selenium-server-standalone-3.0.1.jar > seleniumServer.log 2>&1 &
 fi
 #uncomment to use on linux
 #elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
