@@ -14,6 +14,7 @@ elif [[ $CI ]]; then
   # CircleCI ships with chromedriver v27
   echo "CI runtime detected, skipping chromedriver download..."
   chromedriver &
+fi
   #uncomment to use on linux
 #elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 #  # download and unpack the Linux version
