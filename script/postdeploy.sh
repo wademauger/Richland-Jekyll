@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash -x
 
 chromeDriverVersion=$(curl https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
 cd webdriverio-test
