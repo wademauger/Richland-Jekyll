@@ -4,3 +4,5 @@ _site
 .bundle
 Gemfile.lock
 vendor
+chromedriver
+*.log
