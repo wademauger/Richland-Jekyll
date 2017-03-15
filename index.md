@@ -30,12 +30,6 @@ permalink: index.html
 
 ###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
 
-<h1 style="color:red">
-  Richland Borough is under a state of snow emergency starting today, Monday, March 13 2017
-  at <strong> 6 pm </strong>. All vehicles must be removed from snow emergency routes, or they
-  will be towed and fined. Trash pickup will not take place on Tuesday, March 14.
-</h1>
-
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
 is a picturesque town named  for its fertile soil.
