@@ -19,3 +19,4 @@ permalink: finances.html
 | [2014 Financial Statement](./files/Financial_Statement_2014.pdf) |
 | [2014 Budget](./files/Budget_2014.pdf) |
 | [2013 Financial Statement](./files/Financial_Statement_2013.pdf) |
+| [2012 Financials](./files/audit-2012.pdf) |
