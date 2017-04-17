@@ -26,10 +26,6 @@ permalink: index.html
 		}
 </script>
 
-<h2 style="color:red">
-Street Sweeping Monday April 3 and Tuesday April 4
-</h2>
-
 ![Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist](./files/img/klopp_lerro_train.jpg)
 
 ###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
