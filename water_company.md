@@ -12,7 +12,11 @@ permalink: water_company.html
 
 # Water Company
 
-Every year the Richland Borough has to send out a Consumer Confidence Report (CCR) for our water company. See the 2015 [CRR](./files/2015CRR.pdf) here!
+Every year the Richland Borough has to send out a Consumer Confidence Report (CCR) for our water company.
+
+See the 2015 [CRR](./files/2015CRR.pdf) here
+
+See the 2016 [CRR](./files/2016CRR.pdf) here
 
 ## History of the Richland Water Company
 
