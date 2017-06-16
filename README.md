@@ -92,6 +92,7 @@ Removing pages is even easier, just delete the file and `git add` it, `commit`, 
 ## Other Notes
 
 - I have SSH Access to the server. If you take over this project, ask me for it and I can give you access. You should really only need this if you choose to overhaul this system. That is something you can do, but make sure you have a good reason for it. You should also note that our current server setup disallows running a whole lot of stuff. Compiling the project to static files and pushing that to the server works well for this reason.
+- There's a +100 mb pdf file of ordinances that I didn't check into the code base, but is on the AWS server. I should really move that in with GLFS but meh effort.
 
 ---
 
