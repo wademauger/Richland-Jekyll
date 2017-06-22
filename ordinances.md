@@ -12,6 +12,8 @@ permalink: ordinances.html
 
 # Ordinances
 
+You can view a collection of Richland Borough's ordinances [here](./files/ordinances.pdf).
+
 ## 1. Grass, Weeds, Trees:
 
 Grass may not exceed 7 inches in height. Trees not more than 7 feet over the sidewalk and/or thirteen feet over the street. NO weeds.
