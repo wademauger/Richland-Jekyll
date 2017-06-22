@@ -1,0 +1,454 @@
+/*
+ * main background: #2b425a
+ * main foreground: #325272
+ * main text color: #d7af39
+ */
+
+body,html{
+    height: 100%;
+    width: 100%
+}
+
+*   {
+    margin: 0;
+    padding: 0;
+    color: #d7af39;
+    font-family: Sans-Serif;
+}
+
+hr  {
+    border-color: #d7af39;
+}
+
+p   {
+    font-size: 12pt;
+}
+
+html    {
+    background-color: #325272;
+}
+
+.content h1 {
+    font-size: 18pt;
+    padding: 15px;
+}
+
+#body_content img {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#body_text {
+    width: 650px;
+    margin-left: 250px;
+    padding: 30px;
+    font-size: 21pt;
+    line-height: 30pt;
+    text-align: left;
+}
+
+.img_float  {
+    float: right;
+}
+
+#banner {
+    height: 200px;
+    width: 960px;
+    background-image: url("img/train_blur_banner.png");
+}
+
+.content    {
+    background-color: #2b425a;
+    min-height: 1470px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar  {
+    background-color: #8f9da2;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    width: 250px;
+    float: left;
+}
+
+#sidebar p {
+    color: midnightblue;
+    font-weight: bold;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+#sidebar p span {
+    font-size: 17pt;
+    color: midnightblue;
+    font-weight: bolder;
+    margin-left: -15px;
+}
+
+
+#weather_spacer  {
+    float: left;
+    width: 35px;
+    height: 300px;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#permission {
+    font-size: 20px;
+    display: block;
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.business_card  {
+    display: block;
+    height: auto;
+    width: 600px;
+    padding: 25px;
+    margin-left: 250px;
+}
+
+#business_card h1, h2, h3, h4, h5, h6   {
+    display: inline;
+}
+
+#business_card h3   {
+    padding-right:25px;
+}
+
+#business_card h1   {
+    font-size: 18pt;
+}
+
+#buttons h1    {
+    display: inline;
+    margin: 10px;
+    font-size: 18pt;
+}
+
+#buttons    {
+    margin: 20px;
+    margin-left: 425px;
+}
+
+.right_to_know_content h1  {
+    text-align: center;
+    padding: 15px;
+}
+
+.right_to_know_content ul  {
+    padding: 25px;
+    padding-left: 350px;
+}
+
+.right_to_know_content   {
+    font-size: 16pt;
+    margin-right: 35px;
+}
+
+.right_to_know_content span{
+    display: block;
+    width: 1px;
+    height: 595px;
+}
+
+#history_page {
+    padding: 15px;
+}
+
+#history_page h1    {
+    text-align: center;
+    line-height: 45pt;
+}
+
+#history_page h2    {
+    text-align: center;
+    line-height: 45pt;
+    font-size: 25pt;
+}
+
+#history_page h3    {
+    line-height: 40pt;
+    font-size: 17pt;
+    margin-left: 15pt;
+}
+
+#history_page p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 15pt;
+    line-height: 25pt;
+}
+
+#history_page img   {
+    display: block;
+    height: 374px;
+    width: 600px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page_header    {
+    font-size: 32pt;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.community_img  {
+    display: block;
+    position: relative;
+    float: left;
+    margin: 17px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+}
+
+#meeting_minutes table    {
+    margin: 0 auto;
+    padding: 35px;
+}
+
+#meeting_minutes td  {
+    font-size: 15pt;
+    padding: 15px;
+    background-color: #325272;
+}
+
+#meeting_minutes    {
+}
+
+#meeting_minutes    h1  {
+    font-size: 32pt;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#fire_company   {
+    font-size: 18pt;
+    line-height: 30pt;
+    padding: 20px;
+
+}
+
+#fire_company img   {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+
+    display: block;
+    margin: auto;
+}
+
+#fire_company h1    {
+    text-align: center;
+    font-size: 32pt;
+    margin: 15px;
+}
+
+#refuse_content {
+    padding: 15px;
+    font-size: 18pt;
+}
+
+#refuse_content h1  {
+    text-align: center;
+    font-size: 32pt;
+    margin: 10px;
+}
+
+#refuse_content p {
+    font-size: 18pt;
+}
+
+#refuse_content ul  {
+    margin-left: 400px
+}
+
+#plunge_content h1  {
+    text-align: center;
+    font-size: 32pt;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+#plunge_content h2 {
+    display: block;
+    text-align: center;
+    font-size: 18pt;
+    line-height: 10pt;
+}
+
+#plunge_content {
+    padding: 20px;
+    font-size: 18pt;
+}
+
+#plunge_content img {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#officials_content  {
+    height: 1205px;
+}
+
+#officials_content h1   {
+    margin: 15px;
+    font-size: 32pt;
+    text-align: center;
+}
+
+.official   {
+    width: 340px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+#officials  {
+    display: block;
+    background-color: white;
+}
+
+#ordinances {
+    margin: 20px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+#ordinances h1  {
+    font-size: 32pt;
+    margin: 15px;
+    text-align: center;
+}
+
+#ordinances p   {
+    font-size: 18pt;
+    margin-left: 350px;
+    text-align: left;
+}
+
+#ordinances li  {
+    font-size: 20pt;
+    margin-left: 300px;
+    padding: 15px;
+    text-align: left;
+}
+
+span    {
+    color: red;
+}
+
+#services_content h1   {
+    font-size: 32pt;
+    text-align: center;
+    margin: 15px;
+}
+
+#services_content h2    {
+    display: block;
+}
+
+.service    {
+    display: block;
+    text-align: left;
+    margin: 20px;
+    margin-left: 350px;
+}
+
+.service h2   {
+    display: block;
+    text-align: left;
+}
+
+.service h3   {
+}
+
+#finances_content    h1  {
+    font-size: 32pt;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#finances_content table {
+    margin-left: 485px;
+}
+
+#finances_content td {
+    font-size: 15pt;
+    background-color: #325272;
+    padding: 10px;
+    margin: 10px;
+}
+
+#water_content  {
+    padding: 25px;
+}
+
+#water_content h1 {
+    padding: 15px;
+    font-size: 24pt;
+    text-align: center;
+}
+
+#water_content p {
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+
+#water_content img  {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#water_content h6   {
+    font-size: 15pt;
+    text-align: center;
+}
+
+.event  {
+    padding: 25px;
+}
+
+.event p    {
+    padding: 6px;
+    font-size: 14pt;
+}
+
+.event h2   {
+    font-size: 20pt;
+}
+
+.event h3   {
+    font-size: 18pt;
+}
