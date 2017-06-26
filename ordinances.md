@@ -12,7 +12,7 @@ permalink: ordinances.html
 
 # Ordinances
 
-A collection of Richland's ordinances is available to view [here](http://richlandborough.org/files/ordinances.pdf)
+You can view a collection of Richland Borough's ordinances <a href="http://richlandborough.org/files/ordinances.pdf">here</a>.
 
 ## 1. Grass, Weeds, Trees:
 
