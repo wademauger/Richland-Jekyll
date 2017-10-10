@@ -447,3 +447,19 @@ span    {
 .event h3   {
     font-size: 18pt;
 }
+
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    text-align: center;
+}
+
+.alert {
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: 600px;
+    margin: 20px 250px;
+}
