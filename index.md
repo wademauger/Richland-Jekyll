@@ -35,6 +35,11 @@ permalink: index.html
   Trick or Treat Night is Tuesday, October 31 from 6-8 PM
 </div>
 
+<div class="alert alert-primary" role="alert">
+  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
+  Leaf collection begins the week of October 23 and ends November 21.
+</div>
+
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
 is a picturesque town named  for its fertile soil.
