@@ -32,7 +32,8 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Christmas Tree Lighting is Saturday Nov 18 at 5:30 PM. Santa Clause will be coming by Fire Engine!
+  Christmas Tree Lighting is Saturday Nov 18 at 5:30 PM.
+  <br />Santa Clause will be coming by Fire Engine!
 </div>
 
 <div class="alert alert-primary" role="alert">
