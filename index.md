@@ -32,13 +32,7 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Christmas Tree Lighting is Saturday Nov 18 at 5:30 PM.
-  <br />Santa Clause will be coming by Fire Engine!
-</div>
-
-<div class="alert alert-primary" role="alert">
-  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Leaf collection begins the week of October 23 and ends November 21.
+  Happy Thanksgiving from the Richland Borough!
 </div>
 
 Welcome to the Richland Borough Website.
