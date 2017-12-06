@@ -32,7 +32,7 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Happy Thanksgiving from the Richland Borough!
+  Merry Christmas and Happy New Year from Richland Borough!
 </div>
 
 Welcome to the Richland Borough Website.
