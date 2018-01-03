@@ -26,7 +26,7 @@ permalink: index.html
 		}
 </script>
 
-![Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist](./files/img/klopp_lerro_train.jpg)
+![Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist](./files/img/klopp_lerro_train_sm.png)
 
 ###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
 
