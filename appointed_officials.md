@@ -14,21 +14,21 @@ permalink: appointed_officials.html
 
 |**Ray Shanaman**                |  |**Dennis Seldomridge**
 |Mayor of Richland               |  |Council President
-|Term ends 12/31/2017            |  |Chairman of Public Safety Committee
+|Term ends 12/31/2021            |  |Chairman of Public Safety Committee
 |                                |  |Term ends 12/31/2019
 |**James Niethammer**            |  |
 |Vice President                  |  |**Travis Randler**
 |Chairman of Water Committee     |  |Public Safety Committee Member
-|Chairman of Finance Committee   |  |Term ends 12/31/2017
+|Chairman of Finance Committee   |  |Term ends 12/31/2021
 |Public Safety Committee member  |  |
-|Term ends 12/31/2017            |  |**John Mueller**
+|Term ends 12/31/2021            |  |**Mark Brubaker**
 |                                |  |Chairman of Property Committee
 |**Larry Hartman**               |  |Highway Committee member
-|Chairman of Highway Committee   |  |Term ends 12/31/2017
+|Chairman of Highway Committee   |  |Term ends 12/31/2021
 |Property Committee member       |  |
 |Term ends 12/31/2019            |  |**Kelly Bricker**
 |                                |  |Property Committee Member
-|**Matthew Johnson**             |  |Term ends 12/31/2017
+|**Matthew Johnson**             |  |Term ends 12/31/2019
 |Highway Committee member        |  |
 |Water Committee member          |  |
 |Term ends 12/31/2019            |  |
