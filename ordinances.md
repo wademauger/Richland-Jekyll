@@ -12,6 +12,12 @@ permalink: ordinances.html
 
 # Ordinances
 
+## Proposed Amendments:
+
+[Proposed Amendment to Ordinance #232](http://richlandborough.org/files/Proposed_Amendment_to_Ordinance_232.pdf)
+
+[Proposed Amendment to Ordinance #220](http://richlandborough.org/files/Proposed_Amendment_to_Ordinance_220.pdf)
+
 You can view a collection of Richland Borough's ordinances <a href="http://static.richlandborough.org.s3.amazonaws.com/ordinances.pdf">here</a>.
 This file is rather large, so to help navigate it, we have an index available for your convenience [here](./files/OrdinanceLog.pdf).
 
