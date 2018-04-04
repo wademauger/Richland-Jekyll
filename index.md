@@ -30,11 +30,6 @@ permalink: index.html
 
 ###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
 
-<div class="alert alert-primary" role="alert">
-  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  NOTICE: STREET SWEEPING APRIL 2 & 3
-</div>
-
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
 is a picturesque town named  for its fertile soil.
