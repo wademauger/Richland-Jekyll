@@ -32,7 +32,7 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  NOTICE: STREET SWEEPING APRIL 2 & 3
+  NOTICE: STREET SWEEPING MAY 3 & 4
 </div>
 
 Welcome to the Richland Borough Website.
