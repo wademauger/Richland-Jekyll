@@ -32,4 +32,4 @@ Richland, PA 17087
   
 See [this](http://richlandborough.org/files/RTKfees.pdf) document for more
 information on fees and processing. Requests for information may also be
-considered public. A list of requests can be seen [here](http://richlandborough.org/files/RTK_9-14-17.pdf).
+considered public. A list of requests can be seen [here](http://richlandborough.org/files/RTK5-6-18.pdf).
