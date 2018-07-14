@@ -8,10 +8,10 @@ echo -e "Gathering info please wait..."
 # Get and set variables
 circle_dir="./.circleci"
 conf_file="./.circleci/config.yml"
-vcs_provider="$(git remote -v | awk -F'[@.]' 'NR==1{ print $2 }')"
-project="$(git remote -v | awk -F'[@:.]' 'NR==1{ print $4 }')"
+vcs_provider="github"
+project="wadeanthony0100/Richland-Jekyll"
 test_branch="circleci-20-test"
-remote_test_branch="$(git ls-remote git@"github.com:wadeanthony0100/Richland-Jekyll":"${project}".git "$test_branch")"
+remote_test_branch="$(git ls-remote git@"$vcs_provider".com:"${project}".git "$test_branch")"
 local_test_branch="$(git branch -a | grep "$test_branch")"
 
 # Read in API token
