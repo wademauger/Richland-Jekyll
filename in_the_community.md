@@ -148,7 +148,7 @@ permalink: in_the_community.html
 					<tr>
 							<td>Website:</td>
 							<td>
-									<a href="http://http://www.tulpehockenucc.com/" target="_blank">
+									<a href="http://www.tulpehockenucc.com/" target="_blank">
 											www.tulpehockenucc.com</a>
 							</td>
 					</tr>
