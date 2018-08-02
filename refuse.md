@@ -6,11 +6,19 @@ active: true
 permalink: refuse.html
 ---
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>
   mixpanel.track("Refuse Page");
 </script>
 
 # Refuse
+
+<div class="alert alert-primary" role="alert">
+  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
+  Notice: There have been major changes as to what our recycling centers
+  can accept, therefore new guidelines for recycling can be found
+  [here](http://www.richlandborough.org/files/RevisedRecyclingFlyerasofJune2018.pdf).
+</div>
 
 As of January 1, 2016, Richland Borough is under contract with Eagle Disposal, of East Earl, PA, for the weekly pickup of garbage and bi-weekly pickup of recycling, in the borough. The contract ends 12/31/18. Richland Borough contracts to one hauler, for the entire town, to eliminate garbage trucks, from various companies, collecting garbage in town, on different days. The property owners are responsible for the yearly contracted amount, whether the home is occupied or vacant. Property owners are billed in early October, for the following calendar year, and are given until December 31, of the current year, to pay the invoice. After December 31, fees and penalties are imposed.
 
