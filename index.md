@@ -32,15 +32,7 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Organized Summer Playground
-    <br />
-  Richland Playground
-    <br />
-  6/18-7/27 – Closed July 4
-    <br />
-  Mon, Wed, Fri;  9-12 Noon
-    <br />
-  Ages Kindergarten through Age 12
+  Please place your recycling out in the early morning from now on. Thank you!
 </div>
 
 Welcome to the Richland Borough Website.
