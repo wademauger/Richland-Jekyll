@@ -51,9 +51,13 @@ books and on the televised game show "Jeopardy".
 <div class="slideshow">
 	<ul class="bxslider">
 		<li><img alt="image" src="./files/img/sleding_on_main_st_looking_west.png" /></li>
+		<li><img alt="image" src="./files/img/christmas_tree.png" /></li>
 		<li><img alt="image" src="./files/img/memorial.png" /></li>
+		<li><img alt="image" src="./files/img/old_building.png" /></li>
 		<li><img alt="image" src="./files/img/welcome2.png" /></li>
+		<li><img alt="image" src="./files/img/store_on_main_street.png" /></li>
 		<li><img alt="image" src="./files/img/main_st_looking_at_east.png" /></li>
+		<li><img alt="image" src="./files/img/sugar_bowl.png" /></li>
 		<li><img alt="image" src="./files/img/main_st_near_depot.png" /></li>
 		<li><img alt="image" src="./files/img/south_race_st.png" /></li>
 		<li><img alt="image" src="./files/img/playground.png" /></li>
