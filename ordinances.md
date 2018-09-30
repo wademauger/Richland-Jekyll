@@ -18,9 +18,12 @@ This file is rather large, so to help navigate it, we have an index available fo
 You can also view the following additions to the above document:
 
 [Amendments to ordinance 220](./files/ord220.pdf)
+
 [Amendments to ordinance 232](./files/ord232.pdf)
-[ordinance 384](./files/ord384.pdf)
-[ordinance 385](./files/ord385.pdf)
+
+[Ordinance 384](./files/ord384.pdf)
+
+[Ordinance 385](./files/ord385.pdf)
 
 ## 1. Grass, Weeds, Trees:
 
