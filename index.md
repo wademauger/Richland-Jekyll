@@ -32,7 +32,9 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Please place your recycling out in the early morning from now on. Thank you!
+  The Christmas Tree Lighting Service will be at the town tree on Nov 17 @ 5:30pm.
+  Santa will arrive by Fire Engine!
+  In the event of inclement weather we will hold the service in the Engine Room of the Neptune Fire Hall. 
 </div>
 
 Welcome to the Richland Borough Website.
