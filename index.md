@@ -37,6 +37,11 @@ permalink: index.html
   In the event of inclement weather we will hold the service in the Engine Room of the Neptune Fire Hall. 
 </div>
 
+<div class="alert alert-primary" role="alert">
+  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
+  Curbside Leaf Pickup will be held October 25 through November 26
+</div>
+
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
 is a picturesque town named  for its fertile soil.
