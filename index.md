@@ -30,14 +30,11 @@ permalink: index.html
 
 ###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
 
-<!--
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  The Christmas Tree Lighting Service will be at the town tree on Nov 17 @ 5:30pm.
-  Santa will arrive by Fire Engine!
-  In the event of inclement weather we will hold the service in the Engine Room of the Neptune Fire Hall. 
+  Keystone Collections Group would like to remind those residents of your community who have not yet paid their 2018 per capita/occupation tax bill that the tax is due on or before December 31.
+  See [this flyer](./files/per_capita.pdf) for details, or [visit this link to pay your bill](www.KeystoneCollects.com/Pay)
 </div>
--->
 
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
