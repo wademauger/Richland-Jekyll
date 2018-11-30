@@ -19,6 +19,7 @@ In accordance with the Pennsylvania Right-to-Know Act (Act 3 of 2008), records m
 - Exempted by a judicial decree or order.
 
 In order to request information from the borough, print and complete a copy of [this](http://richlandborough.org/files/RTKform.pdf) form and mail it to
+To request information download the form below, and send it to:
 
 <br />
 
@@ -29,7 +30,13 @@ Richland Borough
 Richland, PA 17087
 
 <br />
+
+To open with Microsoft Word: [DOCX](http://richlandborough.org/files/RTK_Form_11-29-18.docx)
+
+To print and handwrite: [PDF](http://richlandborough.org/files/RTK_Form_11-29-18.pdf)
   
+<br />
+
 See [this](http://richlandborough.org/files/RTKfees.pdf) document for more
 information on fees and processing. Requests for information may also be
 considered public. A list of requests can be seen [here](http://richlandborough.org/files/RTK5-6-18.pdf).
