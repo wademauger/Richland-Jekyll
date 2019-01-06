@@ -32,8 +32,7 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Keystone Collections Group would like to remind those residents of your community who have not yet paid their 2018 per capita/occupation tax bill that the tax is due on or before December 31.
-  See <a href="http://richlandborough.org/files/per_capita.pdf">this flyer</a> for details, or <a href="http://www.KeystoneCollects.com/Pay" target="_blank">visit this link to pay your bill</a>
+  Christmas Tree Pickup will be made by Eagle Disposal, on your regular trash day, any Tuesday in January – 1 tree per household
 </div>
 
 Welcome to the Richland Borough Website.
