@@ -18,6 +18,9 @@ permalink: refuse.html
   Notice: There have been major changes as to what our recycling centers
   can accept, therefore new guidelines for recycling can be found
   <a href="http://www.richlandborough.org/files/RevisedRecyclingFlyerasofJune2018.pdf">here</a>.
+  <br />
+  Eagle Disposal has additionally given us 
+  <a href="http://www.richlandborough.org/files/disposal_notice_1_2019.pdf">this notice</a> to distribute.
 </div>
 
 As of **January 1, 2019**, Richland Borough is under contract with Eagle Disposal,
