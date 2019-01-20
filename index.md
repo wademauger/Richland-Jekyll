@@ -32,11 +32,6 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  A Snow Emergency will begin Saturday, January 19, at 5PM. Move your vehicles to avoid fines. Thank You!
-</div>
-
-<div class="alert alert-primary" role="alert">
-  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
   Christmas Tree Pickup will be made by Eagle Disposal, on your regular trash day, any Tuesday in January – 1 tree per household
 </div>
 
