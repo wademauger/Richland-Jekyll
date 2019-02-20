@@ -32,7 +32,7 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Christmas Tree Pickup will be made by Eagle Disposal, on your regular trash day, any Tuesday in January – 1 tree per household
+  Snow Emergency until further notice
 </div>
 
 Welcome to the Richland Borough Website.
