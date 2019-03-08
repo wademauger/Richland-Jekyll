@@ -32,7 +32,9 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Snow Emergency Sunday 4 PM through 6 PM Monday. Please move your vehicles.
+  Meet Richie the Snowman Saturday at 5:00 next to
+  <a href="https://goo.gl/maps/yxRxLpHvE1n" target="_blank">Rigidply Rafters</a>.
+  Hot dog roast!
 </div>
 
 Welcome to the Richland Borough Website.
