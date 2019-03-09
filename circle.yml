@@ -3,8 +3,6 @@ machine:
     version: 2.3.0
   node:
     version: 6.1.0
-  java:
-    version: openjdk8
 
 test:
   pre:
