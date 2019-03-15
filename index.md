@@ -30,12 +30,10 @@ permalink: index.html
 
 ###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
 
-<!--
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Snow Emergency Sunday 4 PM through 6 PM Monday. Please move your vehicles.
+	Street Sweeping April 1 and 2.  Please sweep your sidewalks also.
 </div>
--->
 
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
