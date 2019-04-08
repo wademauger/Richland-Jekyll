@@ -10,6 +10,12 @@ permalink: water_company.html
   mixpanel.track("Water Company Page");
 </script>
 
+<div class="alert alert-primary" role="alert">
+  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
+  Effective second quarter 2019 Water Rates will change to $60.00 Fee<br />
+  (includes no gallons), plus an additional $5.00 per 1,000 gallons used.
+</div>
+
 # Water Company
 
 Every year the Richland Borough has to send out a Consumer Confidence Report (CCR) for our water company.
