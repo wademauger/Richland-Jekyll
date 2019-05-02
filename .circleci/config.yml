@@ -6,7 +6,7 @@
 # than the prescribed lifecycle of 1.0. In general, we recommend using this generated
 # configuration as a reference rather than using it in production, though in most
 # cases it should duplicate the execution of your original 1.0 config.
-version: 2
+version: 2.1
 jobs:
   build:
     working_directory: ~/wademauger/Richland-Jekyll
@@ -88,12 +88,6 @@ jobs:
       - run: aws configure set default.s3.signature_version s3v4 && aws s3 sync _site/ s3://richlandborough.org/ --delete --region us-east-2
       - run: script/postdeploy.sh
 
-workflows:
-  version: 2
-  build_and_deploy:
-    jobs:
-      - build
-      - deploy
     # Teardown
     #   If you break your build into multiple jobs with workflows, you will probably want to do the parts of this that are relevant in each
     # Save test results
@@ -104,3 +98,10 @@ workflows:
         path: /tmp/circleci-artifacts
     - store_artifacts:
         path: /tmp/circleci-test-results
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy
