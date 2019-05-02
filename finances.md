@@ -12,6 +12,7 @@ permalink: finances.html
 
 # Finances
 
+| [2018 Financial Statement](./files/Financial_Statement_2018.pdf) |
 | [2018 Budget](./files/Budget_2018.pdf) |
 | [2017 Financial Statement](./files/Financial_Statement_2017a.pdf) |
 | [2017 Budget](./files/Budget_2017.pdf) |
