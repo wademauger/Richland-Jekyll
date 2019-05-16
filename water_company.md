@@ -26,6 +26,8 @@ See the 2016 [CCR](./files/2016CCR.pdf) here
 
 See the 2017 [CCR](./files/2017CCR.pdf) here
 
+See the 2018 [CCR](./files/2018CCR.pdf) here
+
 ## History of the Richland Water Company
 
 May 25, 1888 the first public meeting was held in the schoolhouse in Richland regarding the town's water problem. At that time there were five to seven reliable wells in the entire town. These wells were used for drinking by the entire town; cisterns were used for other purposes. When there was high water, the wells became dirty and there was considerable sickness. Isaac Kegerreis, a Notary Public, called the first meeting to order and was elected temporary chairman.
