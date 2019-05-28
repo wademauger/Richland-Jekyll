@@ -30,13 +30,12 @@ permalink: index.html
 
 ###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
 
-<!--
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Effective second quarter 2019 Water Rates will change to $60.00 Fee<br />
-  (includes no gallons), plus an additional $5.00 per 1,000 gallons used.
+  Organized Playground, at Playground Building on Moehlmann Field<br />
+  <b style="color:#004085;">June 17-July 26, Mon, Wed and Fri 9-12 Noon</b>.<br />
+  Ages Kindergarten through Age 12 – no exceptions.
 </div>
--->
 
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
