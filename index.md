@@ -37,6 +37,11 @@ permalink: index.html
   Ages Kindergarten through Age 12 – no exceptions.
 </div>
 
+<div class="alert alert-primary" role="alert">
+  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
+  Fire Hydrants will be flushed the week of June 3.
+</div>
+
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
 is a picturesque town named  for its fertile soil.
