@@ -32,11 +32,6 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Street Paving <b style="color:#004085;">Friday June 7</b>. If no parking signs appear on your street, remove your cars or <b style="color:#004085;">YOUR CAR WILL BE TOWED</b>!!
-</div>
-
-<div class="alert alert-primary" role="alert">
-  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
   Organized Playground, at Playground Building on Moehlmann Field<br />
   <b style="color:#004085;">June 17-July 26, Mon, Wed and Fri 9-12 Noon</b>.<br />
   Ages Kindergarten through Age 12 – no exceptions.
