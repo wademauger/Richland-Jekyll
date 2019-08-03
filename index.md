@@ -32,7 +32,7 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Please place your recycling out in the early morning from now on. Thank you!
+  Community Outreach Day at Moehlmann Park August 17, 4-7 PM
 </div>
 
 Welcome to the Richland Borough Website.
