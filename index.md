@@ -37,7 +37,7 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Trick or Treat Night Thursday Oct 31 6-8 PM
+  Trick or Treat Night Thursday Oct, 31 6-8 PM
 </div>
 
 Welcome to the Richland Borough Website.
