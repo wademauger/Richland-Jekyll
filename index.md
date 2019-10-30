@@ -32,12 +32,7 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-   Leaf Collection begins Monday, Oct 28 (weather permitting)
-</div>
-
-<div class="alert alert-primary" role="alert">
-  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Trick or Treat Night Thursday Oct, 31 6-8 PM
+  NOTE: Trick or Treat Night CHANGED DUE TO INCLIMATE WEATHER<br /> Now Friday Nov 1, 6-8 PM
 </div>
 
 Welcome to the Richland Borough Website.
