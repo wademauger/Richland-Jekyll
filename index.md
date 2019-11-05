@@ -30,10 +30,12 @@ permalink: index.html
 
 ###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
 
+<!--
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
   NOTE: Trick or Treat Night CHANGED DUE TO INCLEMENT WEATHER<br /> Now Friday Nov 1, 6-8 PM
 </div>
+-->
 
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
