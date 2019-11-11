@@ -32,7 +32,8 @@ permalink: index.html
 
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  Tree Lighting Service at Town Tree Sat Nov 23, 5:30 PM. Santa arrives by Fire Engine – treats for the kids.
+  Tree Lighting Service at Town Tree! Sat Nov 23, 5:30 PM<br/>
+  Santa arrives by Fire Engine – Treats for the kids!
 </div>
 
 <div class="alert alert-primary" role="alert">
