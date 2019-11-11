@@ -30,12 +30,16 @@ permalink: index.html
 
 ###### Used with permission of Philip Klopp and Peter A. Lerro, Jr., Artist
 
-<!--
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
-  NOTE: Trick or Treat Night CHANGED DUE TO INCLEMENT WEATHER<br /> Now Friday Nov 1, 6-8 PM
+  Tree Lighting Service at Town Tree Sat Nov 23, 5:30 PM. Santa arrives by Fire Engine – treats for the kids.
 </div>
--->
+
+<div class="alert alert-primary" role="alert">
+  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
+  Last Day of Leaf Picking is Nov 27 (weather permitting)
+</div>
+
 
 Welcome to the Richland Borough Website.
 Richland Borough, nestled in the Eastern part of Lebanon County, Pennsylvania,
