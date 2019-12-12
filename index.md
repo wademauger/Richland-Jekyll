@@ -36,6 +36,11 @@ permalink: index.html
   Residents of the borough must pay their <a style="color:black;font-weight: bold;" href="/files/per_cap_2019.pdf">2019 per capita/occupation tax bill</a> due on or before December 31.
 </div>
 
+<div class="alert alert-primary" role="alert">
+  <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
+  48th Senatorial District Special Election 1/14/20
+</div>
+
 <!--
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
