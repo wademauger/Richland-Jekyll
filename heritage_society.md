@@ -4,7 +4,6 @@ title: Heritage Society
 weight: 10
 active: true
 permalink: heritage_society.html
-suppress_title: true
 ---
 
 <script>
@@ -23,10 +22,15 @@ The Richland Heritage Society presents and organizes community events to celebra
 
 ---
 
-Contact the Richland Heritage Society at:
+To contact the Richland Heritage Society:
 
-Mail: Richland Heritage Society, _PO Box 128, 26 n Race St., Richland, PA 17087_
+|Mail:     | Richland Heritage Society, PO Box 128, 26 n Race St., Richland, PA 17087 |
+|          |                                                                          |
+|Phone:    | 717-866-7050                                                             |
+|          |                                                                          |
+|Website:  | [richlandheritagesociety.org ](http://www.richlandheritagesociety.org)   |
 
-Phone: 717-866-7050
+Like them on Facebook!
 
-Website: [richlandheritagesociety.org ](http://www.richlandheritagesociety.org)
+<div class="fb-like" data-href="https://www.facebook.com/RichlandHistoricalSociety/" data-width="300" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+

@@ -1,0 +1,45 @@
+<div id="sidebar">
+  <div id="navigation">
+    <ul>
+      {% assign pages = site.pages | sort:"weight"  %}
+      {% for p in pages %}
+      {% if p.active == true%}
+      <li {% if p.url == page.url %}class="active"{% endif %} >
+        <a href="{{site.url}}{{site.baseurl}}{{ p.url }}"> → {{ p.title }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+      <!-- Statically include a link to the zoning map last always -->
+      <li>
+        <a href="{{site.url}}{{site.baseurl}}/files/Richland_Zoning.pdf"> → Zoning Map</a>
+      </li>
+    </ul>
+  </div><!--close id navigation-->
+
+  <div style="padding:12px; color:#523644;">
+  Notice: Richland Borough does not have a Facebook Page.  Any Facebook Page, referencing Richland Borough, is a page managed by private citizens; and does not reflect official information from the Richland Borough Council or its employees.
+  </div>
+
+  <p>
+  <span>Our Office</span><br/>
+  5 Pine Street <br/>
+  P.O. Box 676 <br/>
+  Richland, PA 17087 <br/><br />
+  <span>Office Hours:</span><br/>Mon-Fri 9AM-12PM<br/><br/>
+  <span>Email:</span><br />
+  <span style="font-size:9pt">richlandborough@comcast.net</span><br/>
+  <span>Phone:</span><br />
+  717-866-5601 <br/>
+  <span>Fax:</span><br />
+  717-866-9418 <br/><br/>
+  </p>
+
+  <!-- Weather -->
+  <span style='display:block !important; width: 170px; text-align: center; font-family: sans-serif; font-size: 12px; margin-left:35px;'>
+    <a href='//www.wunderground.com/cgi-bin/findweather/getForecast?query=Richland, PA' title='Richland, PA Weather Forecast'>
+      <img src='//weathersticker.wunderground.com/weathersticker/miniStates/language/english/US/PA/Richland.gif' alt='Find more about Weather in Richland, PA' />
+    </a>
+    <br />
+  </span>
+
+</div><!--close id sidebar-->

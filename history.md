@@ -4,7 +4,6 @@ title: History
 permalink: history.html
 weight: 10
 active: true
-suppress_title: true
 ---
 
 <script>

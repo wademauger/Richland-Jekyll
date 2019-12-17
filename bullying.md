@@ -4,14 +4,13 @@ title: Bullying
 weight: 10
 active: true
 permalink: bullying.html
-suppress_title: true
 ---
 
 <script>
   mixpanel.track("Bullying Page");
 </script>
 
-# Borough Council Policy on Bullying
+# Richland Borough Council Policy on Bullying
 
 ## Purpose
 

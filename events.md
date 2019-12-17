@@ -4,7 +4,6 @@ title: Events
 permalink: events.html
 weight: 10
 active: true
-suppress_title: true
 ---
 
 <script>
