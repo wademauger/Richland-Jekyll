@@ -5,7 +5,8 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "default",
+        "finance",
+        "contact_us",
+        "custom",
         "style",
-        "content_style",
-        "style_nav";
+        "blue";

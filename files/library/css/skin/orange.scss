@@ -1,0 +1,670 @@
+﻿/* -----------------------------------------------------------------------------
+
+	TABLE OF CONTENTS
+
+	1.) General
+	2.) Components
+	3.) Header
+	4.) Core
+	5.) Sidebar
+	6.) Footer
+	7.) Responsive
+
+----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+
+    1.) GENERAL
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		COLORS
+	-------------------------------------------------------------------------- */
+
+	// MAIN PALETTE
+	$accent: #FB8C00; // primary accent color
+	$xx-soft-gray: #fcfcfc; // very very soft backgrounds
+	$x-soft-gray: #f0f0f0; // very soft backgrounds
+	$soft-gray: #e5e5e5; // soft background
+	$medium-gray: #bebebe; // lighter texts
+	$medium-dark-gray: #848484; // darker texts
+	$dark-gray: #333; // titles
+	$x-dark-gray: #1a1a1a; // titles, strong text on bright bg
+
+	// GENERAL
+	$body-bg: #f2f2f2;
+	$body-font: #565656;
+	$body-link: $accent;
+	$content-bg: #FFF;
+
+	// WIDGETS
+	$locale-info-widget-bg: '../../../files/img/locale-widget-bg.jpg';
+
+	// FOOTER
+	$footer-bg: #111111;
+	$footer-bg-image: '../../../files/img/footer-bg.jpg';
+
+	/* -------------------------------------------------------------------------
+		MIXINS
+	-------------------------------------------------------------------------- */
+
+	// BOX SHADOW
+	@mixin box-shadow ( $shadow1, $shadow2:false ) {
+		$params: $shadow1;
+		@if $shadow2 { $params: $shadow1, $shadow2; }
+		-moz-box-shadow: $params;
+		-webkit-box-shadow: $params;
+		box-shadow: $params;
+	}
+
+	// HORIZONTAL GRADIENT
+	@mixin horizontal-gradient( $from, $to ) {
+		background-image: -webkit-gradient( linear, left top, right top, from( $from ), to( $to ) );
+		background-image: -webkit-linear-gradient( left, $from, $to );
+		background-image:    -moz-linear-gradient( left, $from, $to );
+		background-image:      -o-linear-gradient( left, $from, $to );
+		background-image:         linear-gradient( to right, $from, $to );
+	}
+
+	// INPUT PLACEHOLDER
+	@mixin input-placeholder ( $color ) {
+		&::-webkit-input-placeholder { color: $color; }
+		&:-moz-placeholder { color: $color; }
+		&::-moz-placeholder { color: $color; }
+		&:-ms-input-placeholder { color: $color; }
+	}
+
+	// VERTICAL GRADIENT
+	@mixin vertical-gradient( $from, $to ) {
+		background-image: -webkit-gradient( linear, left top, left bottom, from( $from ), to( $to ) );
+		background-image: -webkit-linear-gradient( top, $from, $to );
+		background-image:    -moz-linear-gradient( top, $from, $to );
+		background-image:      -o-linear-gradient( top, $from, $to );
+		background-image:         linear-gradient( to bottom, $from, $to );
+	}
+	@mixin vertical-gradient-from-bottom( $from, $to ) {
+		background-image: -webkit-gradient( linear, left bottom, left top, from( $from ), to( $to ) );
+		background-image: -webkit-linear-gradient( bottom, $from, $to );
+		background-image:    -moz-linear-gradient( bottom, $from, $to );
+		background-image:      -o-linear-gradient( bottom, $from, $to );
+		background-image:         linear-gradient( to top, $from, $to );
+	}
+
+	/* -------------------------------------------------------------------------
+        TYPOGRAPHY
+	------------------------------------------------------------------------- */
+
+	body { color: $body-font; background-color: $body-bg; }
+
+	a { color: $body-link; }
+	abbr { border-color: $body-font; }
+	blockquote { border-color: $soft-gray; }
+	code { border-color: $soft-gray; }
+	pre { border-color: $soft-gray; }
+
+	// HEADINGS
+	h1, h2, h3, h4, h5, h6 { color: $dark-gray; }
+
+	// TABLE
+	table thead th { color: #FFF; background-color: $accent; }
+	table thead th a { color: #FFF; }
+	table tbody > tr:nth-child(even) > td { background-color: $soft-gray; }
+
+	/* -------------------------------------------------------------------------
+		FORMS
+	------------------------------------------------------------------------- */
+
+	label { color: $dark-gray; }
+	label > span { color: $accent; }
+	input, textarea, select { color: $body-font; background-color: $x-soft-gray; }
+	input[type="submit"] { color: #FFF; border-color: $accent; background-color: $accent; }
+	input[type="submit"]:hover { border-color: rgba( $accent, .5 ); background-color: rgba( $accent, .8 ); }
+	input[type="file"] { background-color: transparent; }
+
+
+/* -----------------------------------------------------------------------------
+
+    2.) COMPONENTS
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		ACCORDION
+	------------------------------------------------------------------------- */
+
+	.accordion-items {
+		> li { border-color: $soft-gray; }
+		.accordion-title { color: $dark-gray; }
+		.accordion-title:after { color: $accent; }
+		.accordion-title .ico { color: $accent; }
+	}
+
+	/* -------------------------------------------------------------------------
+		ALERT MESSAGES
+	------------------------------------------------------------------------- */
+
+	.c-alert-message { color: #265e88; background-color: #e1edf9;
+		&.m-warning { color: #d40041; background-color: #ffdfe0; }
+		&.m-success { color: #499143; background-color: #d4fbd3; }
+		&.m-notification { color: #c88435; background-color: #fff4cf; }
+		.alert-close { color: $dark-gray; }
+	}
+
+	/* -------------------------------------------------------------------------
+		BUTTON
+	------------------------------------------------------------------------- */
+
+	.c-button { color: #FFF; border-color: $accent; background-color: $accent; }
+	.c-button.m-outline { color: $accent; background-color: transparent; }
+	.c-button:hover { border-color: rgba( $accent, .5 ); background-color: rgba( $accent, .8 ); }
+	.c-button.m-outline:hover { background-color: transparent; }
+
+	/* -------------------------------------------------------------------------
+		POST LIST
+	------------------------------------------------------------------------- */
+
+	.c-post-list {
+		.post-list-title .ico { color: $accent; }
+		.post-list-title a { color: $dark-gray; }
+		.post { border-color: $x-soft-gray; }
+		.post-date { color: $medium-dark-gray; }
+		.more-btn-holder { border-color: $x-soft-gray; }
+	}
+	.m-no-boxes .post { border-color: $soft-gray; }
+	.m-no-boxes .more-btn-holder { border-color: $soft-gray }
+
+	/* -------------------------------------------------------------------------
+		CONTENT BOX
+	------------------------------------------------------------------------- */
+
+	.c-content-box { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ) ); }
+	.c-content-box .c-content-box,
+	.m-no-boxes .c-content-box { background-color: transparent; @include box-shadow( none ); }
+	.m-no-boxes .c-content-box.m-forced { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ) ); }
+
+	/* -------------------------------------------------------------------------
+		COUNTER
+	------------------------------------------------------------------------- */
+
+	.c-counter .counter-data { color: $accent; }
+
+	/* -------------------------------------------------------------------------
+		DEFINITION LIST
+	------------------------------------------------------------------------- */
+
+	.c-definition-list {
+		dl > dt { color: $dark-gray; }
+		dl > dt,
+		dl > dd { border-color: $soft-gray; }
+	}
+
+	/* -------------------------------------------------------------------------
+		DIRECTORY
+	------------------------------------------------------------------------- */
+
+	.c-directory {
+		.directory-title .ico { color: $accent; }
+		.directory-menu > ul > li > a { color: $dark-gray; }
+	}
+
+	/* -------------------------------------------------------------------------
+		FEATURE
+	------------------------------------------------------------------------- */
+
+	.c-feature .feature-icon { color: $accent; }
+
+	/* -------------------------------------------------------------------------
+		PAGINATION
+	------------------------------------------------------------------------- */
+
+	.c-pagination {
+		a:hover { background-color: #FFF; }
+		.m-active a { color: #FFF; background-color: $accent; }
+	}
+
+	/* -------------------------------------------------------------------------
+		PROGRESS BAR
+	------------------------------------------------------------------------- */
+
+	.c-progress-bar {
+		.bar-indicator { background-color: $soft-gray; }
+		.bar-indicator-inner { background-color: $accent; }
+	}
+
+	/* -------------------------------------------------------------------------
+        SEARCH FORM
+    ------------------------------------------------------------------------- */
+
+	.c-search-form {
+		.submit-btn { color: #FFF; background-color: $accent; }
+		.submit-btn:hover { @include box-shadow( inset 0 0 0 5px rgba( #000, .1 ) ); }
+	}
+
+	/* -------------------------------------------------------------------------
+		SEPARATOR
+	------------------------------------------------------------------------- */
+
+	.c-separator { border-color: $soft-gray; }
+	.c-separator.m-transparent { border-color: transparent; }
+
+	/* -------------------------------------------------------------------------
+		SLIDER
+	------------------------------------------------------------------------- */
+
+	.c-slider { background-color: $medium-gray;
+
+		.slide { color: #FFF; }
+		h1, h2, h3, h4, h5, h6 { color: #FFF; }
+		h1 a, h2 a, h3 a { color: #FFF; }
+
+		// ARROW NAVIGATION
+		.owl-prev,
+		.owl-next { color: #FFF; background-color: rgba( #FFF, .2 ); }
+
+		// SLIDER INDICATOR
+		.slider-indicator { background-color: #FFF; background-color: rgba( #FFF, .2 ); }
+		.slider-indicator > span { background-color: $accent; }
+
+	}
+
+	/* -------------------------------------------------------------------------
+		SOCIAL ICONS
+	------------------------------------------------------------------------- */
+
+	.c-social-icons {
+		a { color: #FFF; background-color: $accent; }
+		.ico-angellist a { background-color: #000; }
+		.ico-behance a { background-color: #1769ff; }
+		.ico-bitbucket a { background-color: #205081; }
+		.ico-bitcoin a { background-color: #dc9229; }
+		.ico-codepen a { background-color: #000; }
+		.ico-delicious a { background-color: #3399ff; }
+		.ico-deviantart a { background-color: #05cc47; }
+		.ico-digg a { background-color: #000; }
+		.ico-dribbble a { background-color: #ea4c89; }
+		.ico-dropbox a { background-color: #007ee5; }
+		.ico-facebook a { background-color: #3b5998; }
+		.ico-flickr a { background-color: #0063dc; }
+		.ico-foursquare a { background-color: #0072b1; }
+		.ico-git a { background-color: #4183c4; }
+		.ico-github a { background-color: #4183c4; }
+		.ico-googleplus a { background-color: #dd4b39; }
+		.ico-instagram a { background-color: #3f729b; }
+		.ico-lastfm a { background-color: #c3000d; }
+		.ico-linkedin a { background-color: #0976b4; }
+		.ico-paypal a { background-color: #003087; }
+		.ico-pinterest a { background-color: #cc2127; }
+		.ico-reddit a { background-color: #ff4500; }
+		.ico-skype a { background-color: #00aff0; }
+		.ico-soundcloud a { background-color: #ff8800; }
+		.ico-spotify a { background-color: #2ebd59; }
+		.ico-steam a { background-color: #000; }
+		.ico-trello a { background-color: #256a92; }
+		.ico-tumblr a { background-color: #35465c; }
+		.ico-twitch a { background-color: #6441a5; }
+		.ico-twitter a { background-color: #55acee; }
+		.ico-vimeo a { background-color: #1ab7ea; }
+		.ico-vine a { background-color: #00b488; }
+		.ico-vk a { background-color: #45668e; }
+		.ico-wordpress a { background-color: #21759b; }
+		.ico-xing a { background-color: #026466; }
+		.ico-yahoo a { background-color: #400191; }
+		.ico-yelp a { background-color: #af0606; }
+		.ico-youtube a { background-color: #e52d27; }
+		a:hover { @include box-shadow( inset 0 0 50px rgba( #FFF, .2 ) ); }
+	}
+
+	/* -------------------------------------------------------------------------
+		TABS
+	------------------------------------------------------------------------- */
+
+	.c-tabs {
+		.tab-list > li { color: $dark-gray; }
+		.tab-list > li.m-active { border-color: $accent; }
+	}
+
+	/* -------------------------------------------------------------------------
+		TEAM MEMBER
+	------------------------------------------------------------------------- */
+
+	.c-team-member {
+		.member-role { color: $medium-dark-gray; }
+	}
+
+
+/* -----------------------------------------------------------------------------
+
+    3.) HEADER
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		HEADER TOGGLE
+	------------------------------------------------------------------------- */
+
+	.header-toggle { color: $body-font; background-color: #FFF; }
+	.header-toggle:hover { @include box-shadow( inset 0 0 0 5px rgba( #000, .1 ) ); }
+	.header-toggle.m-active { color: #FFF; background-color: $accent; @include box-shadow( none ); }
+
+	/* -------------------------------------------------------------------------
+		HEADER MENU
+	------------------------------------------------------------------------- */
+
+	.header-menu { background-color: $accent; border-color: rgba( #000, .2 ); @include box-shadow( -10px 10px 10px rgba( #000, .25 ) );
+
+		> ul > li > a { color: #FFF; }
+
+		// SUBMENU
+		ul ul { background-color: #FFF; @include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ), -5px 5px 8px rgba( 0, 0, 0, .05 ) ); }
+		ul ul li { border-color: $x-soft-gray; }
+		ul ul .m-has-submenu > a:after,
+		ul ul .m-has-submenu > a:before { color: $medium-gray; }
+
+	}
+
+	/* -------------------------------------------------------------------------
+		HEADER TOOLS
+	------------------------------------------------------------------------- */
+
+	// LANGUAGE SWITCHER
+	.header-lang-switcher {
+		li { background-color: #FFF; }
+		li { border-color: $soft-gray; }
+		a, button { color: $body-font; }
+		a:hover,
+		button:hover { @include box-shadow( inset 0 0 0 5px rgba( #000, .1 ) ); }
+		a.m-active,
+		button.m-active { color: #FFF; background-color: $accent; @include box-shadow( none ); }
+	}
+
+	// HEADER SEARCH
+	.header-search {
+		.form-fields { background-color: #FFF;  }
+		.submit-btn { color: #FFF; background-color: $accent; }
+		.submit-btn:hover { @include box-shadow( inset 0 0 0 5px rgba( #000, .1 ) ); }
+	}
+
+	// GMAP SWITCHER
+	.header-gmap-switcher { color: $body-font; background-color: #FFF; }
+	.header-gmap-switcher:hover { @include box-shadow( inset 0 0 0 5px rgba( #000, .1 ) ); }
+	.header-gmap-switcher .ico-open { color: $accent; }
+	.header-gmap-switcher.m-active { color: #FFF; background-color: $accent; @include box-shadow( none ); }
+
+	/* -------------------------------------------------------------------------
+		HEADER BG
+	------------------------------------------------------------------------- */
+
+	// HEADER IMAGE
+	.header-image:after { background-color: transparent; @include vertical-gradient( rgba( $body-bg, 0 ), $body-bg ); }
+	.header-image .image-layer { background-color: #FFF; }
+
+
+/* -----------------------------------------------------------------------------
+
+    4.) CORE
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+        PAGE HEADER
+    ------------------------------------------------------------------------- */
+
+	#page-header { color: #FFF; background-color: $dark-gray; background-color: rgba( #000, .8 ); }
+	#page-header:after { border-top-color: $dark-gray; border-top-color: rgba( #000, .8 ); }
+
+	// PAGE TITLE
+	.page-title h1 { color: #FFF; }
+	.m-has-breadcrumbs .page-title { border-color: #FFF; border-color: rgba( #FFF, .1 ); }
+	.m-has-breadcrumbs .page-title:after { background-color: #FFF; }
+
+	// BREADCRUMBS
+	.breadcrumbs { color: $medium-gray; }
+	.breadcrumbs a { color: #FFF; }
+
+	/* -------------------------------------------------------------------------
+        POSTS
+    ------------------------------------------------------------------------- */
+
+	.post-page {
+		.post-footer { border-color: $x-soft-gray; }
+		.post-footer .ico { color: $medium-gray; }
+	}
+	.post-navigation h5,
+	.post-navigation h5 a { color: $dark-gray; }
+
+	/* -------------------------------------------------------------------------
+        NOTICES
+    ------------------------------------------------------------------------- */
+
+	.notice-page {
+		.notice-footer { border-color: $x-soft-gray; }
+		.notice-footer .ico { color: $medium-gray; }
+	}
+
+	/* -------------------------------------------------------------------------
+        EVENTS
+    ------------------------------------------------------------------------- */
+
+	.event-page {
+		.group-title { color: #FFF; background-color: $accent; }
+		.event-info { border-color: $x-soft-gray; }
+		.event-info .ico { color: $accent; }
+		.event-content { border-color: $x-soft-gray; }
+	}
+
+	/* -------------------------------------------------------------------------
+        GALLERIES
+    ------------------------------------------------------------------------- */
+
+	.gallery-page {
+		.gallery-footer { border-color: $x-soft-gray; }
+		.gallery-footer .ico { color: $medium-gray; }
+	}
+	.gallery-list-page .c-gallery .gallery-image-inner { background-color: #FFF; }
+
+	/* -------------------------------------------------------------------------
+        DOCUMENTS
+    ------------------------------------------------------------------------- */
+
+	.document-page {
+		.document-list > li { border-color: $x-soft-gray; }
+		.document-icon { color: $medium-gray; }
+	}
+
+/* -----------------------------------------------------------------------------
+
+    5.) SIDEBAR
+
+----------------------------------------------------------------------------- */
+
+	/* -------------------------------------------------------------------------
+		SIDE MENU
+	------------------------------------------------------------------------- */
+
+	.side-menu { background-color: $accent; border-color: rgba( #000, .1 );
+
+		> ul > li { border-color: rgba( #FFF, .1 ); }
+		> ul > li > a { color: #FFF; }
+		> ul > li.m-hover > a,
+		> ul > li > a:hover { color: #FFF; }
+		.m-has-submenu > a:after,
+		.m-has-submenu > a:before { color: #FFF; }
+		.submenu-toggle { color: $accent; }
+
+			// SUBMENU
+			ul > li > ul { background-color: #FFF; @include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ) ); }
+			ul > li > ul > li { border-color: $x-soft-gray; }
+			ul ul .m-has-submenu > a:after,
+			ul ul .m-has-submenu > a:before { color: $medium-gray; }
+
+	}
+
+	// VISIBLE SUBMENU
+	.side-menu.m-show-submenu {
+
+		> ul > .m-active > ul { background-color: rgba(0, 0, 0, 0.1); }
+		.m-active > ul { background-color: transparent; @include box-shadow( none ); }
+		.m-active > ul > li { border-color: transparent; border-color: rgba( #FFF, .1 ); }
+		.m-active > ul > li > a { color: #FFF; }
+		.m-active a:after,
+		.m-active a:before { color: #FFF; }
+
+	}
+
+	/* -------------------------------------------------------------------------
+		WIDGETS
+	------------------------------------------------------------------------- */
+
+	.sidebar {
+
+		.widget { background-color: $content-bg; @include box-shadow( 1px 1px 0 rgba( 0, 0, 0, .05 ) ); }
+		.widget-title { color: $dark-gray; }
+		.widget-ico { color: $accent; }
+		.show-all-btn { border-color: $x-soft-gray; }
+
+		// CUSTOM CODE & IMAGE WIDGET
+		.image-widget,
+		.custom-code-widget { background-color: transparent; @include box-shadow( none ); }
+
+		// DEFINITION LIST WIDGET
+		.definition-list-widget {
+			dl > dt { color: $dark-gray; }
+			dl > dt,
+			dl > dd { border-color: $x-soft-gray; }
+		}
+
+		// POSTS & NOTICES WIDGET
+		.posts-widget,
+		.notices-widget {
+			ul > li { border-color: $x-soft-gray; }
+		}
+
+		// DOCUMENTS WIDGET
+		.documents-widget {
+			ul > li { border-color: $x-soft-gray; }
+			.document-icon { color: $medium-gray; }
+		}
+
+		// EVENTS WIDGET
+		.events-widget {
+			ul > li { border-color: $x-soft-gray; }
+			.event-month { color: #FFF; background-color: $accent; }
+			.event-day { color: $dark-gray; background-color: $soft-gray; }
+		}
+
+		// GALLERIES WIDGET
+		.galleries-widget {
+			ul > li { border-color: $x-soft-gray; }
+		}
+
+		// LOCALE INFO WIDGET
+		.locale-info-widget {
+			&.m-has-bg .widget-inner { background-image: url($locale-info-widget-bg); }
+			.widget-content > ul > li { border-color: $x-soft-gray; }
+			.local-icon { color: $medium-gray; }
+			&.m-has-bg { color: #FFF; }
+			&.m-has-bg .widget-title,
+			&.m-has-bg .widget-ico,
+			&.m-has-bg .widget-ico-shadow { color: #FFF; }
+			&.m-has-bg .widget-title { border-color: transparent; }
+			&.m-has-bg .widget-content > ul > li { border-color: rgba( #FFF, .2 ); }
+			&.m-has-bg h4 { color: #FFF; }
+		}
+
+		// MAILCHIMP SUBSCRIBE WIDGET
+		.mailchimp-subscribe-widget {
+			.submit-btn { color: $accent; }
+		}
+
+		// CATEGORIES WIDGET
+		.categories-widget {
+			.widget-content > ul > li { border-color: $x-soft-gray; }
+		}
+
+	}
+
+
+/* -----------------------------------------------------------------------------
+
+    6.) FOOTER
+
+----------------------------------------------------------------------------- */
+
+.footer-bg { background-image: url( $footer-bg-image ); }
+.footer-bg:before { background-color: $body-bg; background-color: rgba( $body-bg, .9 ); @include vertical-gradient( $body-bg, rgba( $body-bg, 0 ) ); }
+
+	/* -------------------------------------------------------------------------
+		FOOTER TOP
+	------------------------------------------------------------------------- */
+
+	.footer-top { color: $medium-gray; background-color: $footer-bg; background-color: rgba( $footer-bg, .9 ); }
+	.footer-top .c-separator { border-color: #303030; border-color: rgba( #FFF, .1 ); }
+
+	/* -------------------------------------------------------------------------
+		BOTTOM PANEL
+	------------------------------------------------------------------------- */
+
+	#bottom-panel {
+
+		h1, h2, h3, h4, h5, h6 { color: $medium-gray; }
+		input { color: #FFF; background-color: #000; background-color: rgba( #000, .8 ); }
+		label { color: #FFF; }
+
+		.widget-title { color: #FFF; }
+		.widget-ico { color: $accent; }
+		.show-all-btn { border-color: rgba( #FFF, .1 ); }
+
+		// ALERT MESSAGE
+		.c-alert-message { color: #FFF; background-color: transparent; border-color: #FFF; border-color: rgba( #FFF, .1 ); }
+
+		// DEFINITION LIST WIDGET
+		.definition-list-widget {
+			dl > dt,
+			dl > dd { border-color: rgba( #FFF, .1 ); }
+			dl > dd { color: #FFF; }
+		}
+
+		// MAILCHIMP SUBSCRIBE
+		.mailchimp-subscribe-widget {
+			.submit-btn { color: #FFF; }
+		}
+
+	}
+
+	/* -------------------------------------------------------------------------
+		FOOTER BOTTOM
+	------------------------------------------------------------------------- */
+
+	.footer-bottom:before { background-color: $body-bg; background-color: rgba( $body-bg, .9 ); @include vertical-gradient( rgba( $body-bg, 0 ), $body-bg ); }
+
+
+/* -----------------------------------------------------------------------------
+
+    7.) RESPONSIVE
+
+----------------------------------------------------------------------------- */
+
+    /* -------------------------------------------------------------------------
+        MEDIUM DEVICES
+    ------------------------------------------------------------------------- */
+
+    @media ( max-width: 991px ) {
+
+    	// HEADER MENU
+		.header-menu { @include box-shadow( none );
+
+		> ul > li { border-color: rgba( #FFF, .1 ); }
+		> ul > li.m-hover > a,
+		> ul > li > a:hover { color: #FFF; }
+		a { color: #FFF; }
+		.submenu-toggle { color: #FFF; }
+
+			// SUBMENU
+			ul ul { @include box-shadow( none ); background-color: transparent; }
+			> ul > li > ul { background-color: rgba( #000, .1 ); }
+			> ul > li > ul > li { border-color: rgba( #FFF, .1 ); }
+
+		}
+
+    }

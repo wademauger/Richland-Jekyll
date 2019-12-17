@@ -4,6 +4,7 @@ title: Services
 weight: 10
 active: true
 permalink: services.html
+suppress_title: true
 ---
 
 <script>
@@ -12,31 +13,32 @@ permalink: services.html
 
 # Services
 
-## Local Law Enforcement
+##### Local enforcement is provided by the Borough Code Enforcement Officer:
 
-#### <br />Local enforcement is provided by the Borough Code Enforcement Officer:
+Robert Rittle
 
-|Robert Rittle                          |
-|Phone: 717-866-5601                    |
-|email: robertrceorittle@gmail.com      |
+Phone: 717-866-5601
 
-## <br />Criminal Enforcement
+email: robertrceorittle@gmail.com
 
-#### <br />Criminal enforcement is provided by the Pennsylvania State Police:
+## Criminal Enforcement
 
-|Jonestown, PA                                    |
-|Phone: 717-865-2194 or **911 for an emergency**  |
+##### Criminal enforcement is provided by the Pennsylvania State Police:
 
-## <br />Sewer
+Jonestown, PA
 
-#### <br />Millcreek-Richland Joint Authority:
+Phone: 717-865-2194 or **911 for an emergency**
 
-|2 N Race Street Richland, PA 17087 |
-|Phone: 717-866-5938                |
+## Sewer
 
-## <br />Richland Borough Water Authority
+##### Millcreek-Richland Joint Authority:
 
-#### <br />Millcreek-Richland Joint Authority:
+2 N Race Street Richland, PA 17087
+Phone: 717-866-5938
 
-|2 N Race Street Richland, PA 17087  |
-|Phone: 717-866-5938                 |
+## Richland Borough Water Authority
+
+##### Millcreek-Richland Joint Authority:
+
+2 N Race Street Richland, PA 17087
+Phone: 717-866-5938

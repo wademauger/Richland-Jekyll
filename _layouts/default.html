@@ -2,13 +2,211 @@
 <html>
   {% include head.html %}
   <body>
-  <div class="content">
-    {% include header.html %}
-    {% include sidebar.html %}
-    <div class="markdown">
-    {{ content }}
-    </div><!--close div markdown-->
-  </div> <!--close div content-->
-    {% include footer.html %}
+    <!-- HEADER : begin -->
+      <header id="header" class="m-has-header-tools m-has-gmap">
+        <div class="header-inner">
+          <!-- HEADER CONTENT : begin -->
+          <div class="header-content">
+          <div class="header-train" style="
+            background-position: center;
+            background-repeat: repeat-x;
+            background-image: url('files/img/train.png');
+          ">
+              <img src="files/img/train_blur_banner.png" style="
+width: 100%;
+z-index:1;
+max-height: 200px;
+max-width: 960px;
+display: block;
+margin: auto;
+margin-bottom: 12px;
+"/>
+              </div>
+							<div class="header-toggle-holder" style="padding:0;">
+								<button type="button" class="header-toggle">
+									<i class="ico-open tp tp-menu"></i>
+									<i class="ico-close tp tp-cross"></i>
+									<span>Menu</span>
+								</button>
+							</div>
+							<nav class="header-menu">
+                {% include responsive_navigation.html %}
+							</nav>
+        </div>
+        <!-- HEADER CONTENT : end -->
+          </div>
+      </header>
+      <!-- HEADER : end -->
+      <!-- HEADER BG : begin -->
+      <div class="header-bg">
+      </div>
+      <!-- HEADER BG : end -->
+      <!-- CORE : begin -->
+      <div id="core">
+        <div class="c-container">
+          <div class="row">
+            <!-- MIDDLE COLUMN : begin -->
+            <div class="middle-column col-md-9 col-md-push-3">
+              <!-- PAGE CONTENT : begin -->
+              <div id="page-content">
+                <div class="page-content-inner">
+                  <!-- ALERTS : begin -->
+                  {% if page.title == "indexTitle" %}
+                    {% include alerts.html %}
+                  {% endif %}
+                  <!-- ALERTS : end -->
+                  <!-- PAGE TITLE : end -->
+                  <!-- POST LIST : begin -->
+                  <div class="c-post-list m-has-icon">
+                    <div class="c-content-box">
+                      <div class="post-list-inner">
+                        <i class="ico-shadow tp tp-reading"></i>
+                        <h2 class="post-list-title"><i class="ico tp tp-reading"></i>
+
+                          {% if page.title == "indexTitle" %}
+                            <strong>Richland,</strong> PA</h2>
+                          {% endif %}
+
+                          {% unless page.suppress_title == true %}
+                            {{ page.title }}
+                          {% endunless %}
+
+                        <div class="post-list-content">
+
+                          <!-- FEATURED POST : begin -->
+                          <article class="featured-post m-has-thumb">
+                            {{ content }}
+                          </article>
+                          <!-- FEATURED POST : end -->
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- POST LIST : end -->
+
+                </div>
+              </div>
+              <!-- PAGE CONTENT : end -->
+
+              <hr class="c-separator m-margin-top-small m-margin-bottom-small m-transparent hidden-lg hidden-md">
+
+            </div>
+            <!-- MIDDLE COLUMN : end -->
+
+            <!-- LEFT COLUMN : begin -->
+            <div class="left-column col-md-3 col-md-pull-9">
+
+              <!-- SIDE MENU : begin -->
+              <nav class="side-menu m-left-side m-show-submenu">
+                {% include responsive_navigation.html %}
+              </nav>
+              <!-- SIDE MENU : end -->
+
+              <!-- LEFT SIDEBAR : begin -->
+              <aside class="sidebar">
+                <div class="widget-list">
+
+                  <!-- LOCALE INFO WIDGET : begin -->
+                  <!-- to remove background image from this widget, simply remove "m-has-bg" class from the following element -->
+                  <div class="widget locale-info-widget">
+                    <div class="widget-inner">
+                      <h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-map-marker"></i>Office Contact</h3>
+                      {% include contact_left.html %}
+                    </div>
+                  </div>
+                  <!-- LOCALE INFO WIDGET : end -->
+
+                  <!-- DOCUMENTS WIDGET : begin -->
+                  {% include recent_minutes.html %}
+                  <!-- DOCUMENTS WIDGET : end -->
+
+                </div>
+              </aside>
+              <!-- LEFT SIDEBAR : end -->
+
+            </div>
+            <!-- LEFT COLUMN : end -->
+
+          </div>
+        </div>
+      </div>
+      <!-- CORE : end -->
+
+      <!-- FOOTER : begin -->
+      <footer id="footer" class="m-has-bg">
+        <div class="footer-bg">
+          <div class="footer-inner">
+
+            <!-- FOOTER TOP : begin -->
+            <div class="footer-top">
+              <div class="c-container">
+
+                <!-- BOTTOM PANEL : begin -->
+                <div id="bottom-panel">
+                  <div class="bottom-panel-inner">
+                    <div class="row">
+                      <div class="col-md-3">
+                      </div>
+                      <div class="widget-col col-md-3">
+
+                        <!-- DEFINITION LIST WIDGET : begin -->
+                        <div class="widget definition-list-widget">
+                          <hr class="c-separator m-transparent hidden-lg hidden-md">
+                          <div class="widget-inner">
+                            <h3 class="widget-title m-has-ico"><i
+                                class="widget-ico tp tp-telephone"></i>Office Contact</h3>
+                            <div class="widget-content">
+															{% include contact_footer.html %}
+                            </div>
+                          </div>
+                        </div>
+                        <!-- DEFINITION LIST WIDGET : end -->
+
+                      </div>
+                      <div class="widget-col col-md-3">
+
+                        <!-- MAILCHIMP SUBSCRIBE WIDGET : begin -->
+                        <!-- Please read the documentation to learn how to configure Mailchimp Subscribe widget -->
+                        <div class="widget mailchimp-subscribe-widget">
+                          <hr class="c-separator m-transparent hidden-lg hidden-md">
+                          <div class="widget-inner">
+                            <h3 class="widget-title m-has-ico"><i
+                                class="widget-ico far fa-calendar-alt">
+                              </i>View Our Calendar</h3>
+                            <div class="widget-content">
+                              <iframe src="https://calendar.google.com/calendar/b/2/embed?height=250&amp;wkst=1&amp;bgcolor=%23bfbfbf&amp;ctz=America%2FNew_York&amp;src=cmljaGxhbmRib3JvdWdoQGdtYWlsLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2322AA99&amp;color=%231F753C&amp;mode=AGENDA" style="border:solid 1px #777" width="300" height="250" frameborder="0" scrolling="no"></iframe>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- MAILCHIMP SUBSCRIBE WIDGET : end -->
+                      </div>
+                      <div class="widget-col col-md-3">
+                        <!-- COPYRIGHT BLOCK -->
+                        <div class="widget mailchimp-subscribe-widget">
+                          <hr class="c-separator m-transparent hidden-lg hidden-md">
+                          <div class="widget-inner">
+                            {% include footer_copyright.html %}
+                          </div>
+                          <div class="footer-copyright">
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- BOTTOM PANEL : end -->
+
+              </div>
+            </div>
+            <!-- FOOTER TOP : end -->
+
+          </div>
+        </div>
+      </footer>
+      <!-- FOOTER : end -->
+      {% include footer_scripts.html %}
   </body>
+
 </html>

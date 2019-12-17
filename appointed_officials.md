@@ -1,42 +1,38 @@
 ---
 layout: default
+suppress_title: true
 title: Appointed Officials
-weight: 10
-active: true
-permalink: appointed_officials.html
 ---
-
-<script>
-  mixpanel.track("Appointed Officials Page");
-</script>
 
 # Appointed Officials
 
-|**Ray Shanaman**                |  |**Dennis Seldomridge**
-|Mayor of Richland               |  |Council President
-|Term ends 12/31/2021            |  |Chairman of Public Safety Committee
-|                                |  |Term ends 12/31/2019
-|**James Niethammer**            |  |
-|Vice President                  |  |**Travis Randler**
-|Chairman of Water Committee     |  |Public Safety Committee Member
-|Chairman of Finance Committee   |  |Term ends 12/31/2021
-|Public Safety Committee member  |  |
-|Term ends 12/31/2021            |  |**Mark Brubaker**
-|                                |  |Chairman of Property Committee
-|**Larry Hartman**               |  |Highway Committee member
-|Chairman of Highway Committee   |  |Term ends 12/31/2021
-|Property Committee member       |  |
-|Term ends 12/31/2019            |  |**Kelly Bricker**
-|                                |  |Property Committee Member
-|**Matthew Johnson**             |  |Term ends 12/31/2019
-|Highway Committee member        |  |
-|Water Committee member          |  |
-|Term ends 12/31/2019            |  |
+<div class="list-group list-group-flush">
+  {% for OFFICER in site.data.appointed_officials %}
+    <div class="list-group-item official-card">
+      <img src="{{site.url}}{{site.baseurl}}files/img/avatar.png"/>
+      <div class="official-card-right">
+        <h5 class="official-name">{{ OFFICER.NAME }}</h5>
+        {% for TITLE in OFFICER.TITLES %}
+          <h6 class="official-title">{{ TITLE }}</h6>
+        {% endfor %}
+        <span class="badge badge-secondary official-term">
+        Term ends  {{ OFFICER.TERM_EXPIRATION }} 
+        </span>
+      </div>
+    </div>
+  {% endfor %}
+</div>
 
 # Borough Employees
 
-|**Perri Shanaman**         |  |**John Johnson**
-|Secretary                  |  |Asst Road and Water Supervisor
-|                           |  |
-|**Dwight Belleman**        |  |
-|Road and Water Supervisor  |  |
+<div class="list-group list-group-flush">
+  {% for EMPLOYEE in site.data.borough_employees %}
+    <div class="list-group-item official-card">
+      <img src="{{site.url}}{{site.baseurl}}files/img/avatar.png"/>
+      <div class="official-card-right">
+        <h5 class="official-name">{{ EMPLOYEE.NAME }}</h5>
+        <h6 class="official-title">{{ EMPLOYEE.TITLE }}</h6>
+      </div>
+    </div>
+  {% endfor %}
+</div>

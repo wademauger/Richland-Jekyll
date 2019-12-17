@@ -1,0 +1,20 @@
+<div id="page-header">
+    <div class="page-title">
+        {% for ALERT in site.data.alerts %}
+            <div class="alert-left">
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            </div>
+            <div class="alert-text">
+                {{ ALERT.TEXT }}
+            </div>
+            {% if ALERT.FILE.size > 0 %} <!-- Prevents non-file bearing alerts from showing a button -->
+                <a href="{{ site.url }}{{ site.baseurl }}{{ ALERT.FILE }}">
+                    <button type="button" class="btn btn-primary alert-button"><i class="fa fa-download"></i> DOWNLOAD DOCUMENT</button>
+                </a>
+            {% endif %}
+            {% unless forloop.last == true %} <!-- Prevents an extra line at the end from showing up -->
+                <hr />
+            {% endunless %}
+        {% endfor %}
+    </div>
+</div>

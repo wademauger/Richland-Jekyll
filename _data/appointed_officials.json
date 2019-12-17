@@ -1,0 +1,58 @@
+[
+    {
+        "NAME": "Ray Shanaman",
+        "TERM_EXPIRATION": "12/31/2021",
+        "TITLES": [
+            "Mayor of Richland"
+        ]
+    },{
+        "NAME": "James Niethammer",
+        "TERM_EXPIRATION": "12/31/2021",
+        "TITLES": [
+            "Vice President",
+            "Chairman of Water Committee",
+            "Chairman of Finance Committee",
+            "Public Safety Committee member"
+        ]
+    },{
+        "NAME": "Larry Hartman",
+        "TERM_EXPIRATION": "12/31/2019",
+        "TITLES": [
+            "Chairman of Highway Committee",
+            "Property Committee member"
+        ]
+    },{
+        "NAME": "Matthew Johnson",
+        "TERM_EXPIRATION": "12/31/2019",
+        "TITLES": [
+            "Highway Committee member",
+            "Water Committee member"
+        ]
+    },{
+        "NAME": "Dennis Seldomridge",
+        "TERM_EXPIRATION": "12/31/2019",
+        "TITLES": [
+            "Council President",
+            "Chairman of Public Safety Committee",
+        ]
+    },{
+        "NAME": "Travis Randler",
+        "TERM_EXPIRATION": "12/31/2021",
+        "TITLES": [
+            "Public Safety Committee Member"
+        ]
+    },{
+        "NAME": "Mark Brubaker",
+        "TERM_EXPIRATION": "12/31/2021",
+        "TITLES": [
+            "Chairman of Property Committee",
+            "Highway Committee member"
+        ]
+    },{
+        "NAME": "Kelly Bricker",
+        "TERM_EXPIRATION": "12/31/2019",
+        "TITLES": [
+            "Property Committee Member"
+        ]
+    }
+]

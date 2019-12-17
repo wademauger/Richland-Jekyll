@@ -1,17 +1,108 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-production: true
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.richlandborough.org" # the base hostname & protocol for your site
-exclude: [vendor]
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: RichlandBorough.org
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://richlandborough.org" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Contact info
+devEmail: wadeanthony0100@gmail.com
+email: richlandborough@comcast.net
+phone: 717-866-5601
+fax: 717-866-9418
+address: >-
+  5 Pine Street
+  P.O. Box 676
+  Richland, PA 17087
+
+# Alerts
+alerts:
+  - Street Paving Friday June 7. If no parking signs appear on your street, remove your cars or YOUR CAR WILL BE TOWED!
+  - Organized Playground, at Playground Building on Moehlmann Field June 17-July 26, Mon, Wed and Fri 9-12 Noon. Ages Kindergarten through Age 12 – no exceptions.
+  - This is a third example of an alert.
 
 # Build settings
 markdown: kramdown
-keep_files: ["/files"]
- 
-array: []
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+sass:
+  sass_dir: _styles
+
+# # #
+# Static File Triage
+# # #
+# # #
+# assign flags to assets in different
+# directories to make them easier to 
+# reference in Liquid code
+defaults:
+  - 
+    scope:
+      path: "assets/_data"
+    values:
+      json: true
+  -
+    scope:
+      path: "assets/budgets"
+    values:
+      document: true
+      budget: true
+  -
+    scope:
+      path: "assets/documents"
+    values:
+      document: true
+  -
+    scope:
+      path: "assets/financial_statements"
+    values:
+      document: true
+      fin_state: true
+  -
+    scope:
+      path: "assets/meeting_minutes"
+    values:
+      document: true
+      meeting_minutes: true
+  -
+    scope:
+      path: "assets/scripts"
+    values:
+      script: true
+  -
+    scope:
+      path: "assets/water_reports"
+    values:
+      document: true
+      water_report: true
+    
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

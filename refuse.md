@@ -4,6 +4,7 @@ title: Refuse
 weight: 10
 active: true
 permalink: refuse.html
+suppress_title: true
 ---
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>

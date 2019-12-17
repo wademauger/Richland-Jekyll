@@ -4,19 +4,20 @@ title: Water Company
 weight: 10
 active: true
 permalink: water_company.html
+suppress_title: true
 ---
 
 <script>
   mixpanel.track("Water Company Page");
 </script>
 
+# Water Company
+
 <div class="alert alert-primary" role="alert">
   <i class="fa fa-exclamation-circle alert-primary" aria-hidden="true"></i>
   Effective second quarter 2019 Water Rates will change to $60.00 Fee<br />
   (includes no gallons), plus an additional $5.00 per 1,000 gallons used.
 </div>
-
-# Water Company
 
 Every year the Richland Borough has to send out a Consumer Confidence Report (CCR) for our water company.
 
@@ -81,6 +82,8 @@ A total of 17,500 feet of eight-inch pipe transmits water from the reservoir to 
 Fire protection is also part of the service of the Richland Borough Water Company. More than 52 fire hydrants are located within the borough, approximately 500-600 feet apart, as well as along the main line for protection of Stricklerstown residents and farms farther downstream.
 
 Presently the Richland Borough Water Company serves 632 customers, 25 of those being outside the borough limits. Recent improvements to the water system include a standby generator and new water treatment facilities.
+
+---
 
 **Information taken from "Our Town USA, Richland, Pennsylvania" published in 1976 by the Richland Bi-Centennial Committee Editors Shirley Weinhold and Ned Shanaman**
 
