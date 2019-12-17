@@ -1,0 +1,6 @@
+<dl>
+  {% for contact_method in site.data.contact %}
+		<dt>{{contact_method.KEY}}</dt>
+		<dd>{{contact_method.VALUE}}</dd>
+	{% endfor %}
+</dl>

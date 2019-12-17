@@ -4,39 +4,11 @@ title: Fire Company
 weight: 10
 active: true
 permalink: fire_company.html
+suppress_title: true
 ---
 
 <script>
   mixpanel.track("Fire Company Page");
-</script>
-
-<!--Facebook SDK-->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=506708339356625";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!--Slideshow files-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="files/slideshow/jquery.bxslider.min.js"></script>
-<link href="files/slideshow/jquery.bxslider.css" rel="stylesheet" />
-<script>
-		$(document).ready(function(){
-				$('.bxslider').bxSlider({
-						pagerCustom: '#bx-pager',
-						adaptiveHeight: true,
-						auto: true,
-						slideWidth: 900
-				});
-		});
-
-		function resizeIframe(obj) {
-				obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-		}
 </script>
 
 # Neptune Fire Company
@@ -64,7 +36,7 @@ In 2007 they celebrated the 100th year of the company by hosting the Lebanon Cou
 For more information about the Neptune Fire Company, including events, happenings and banquet hall information, visit their website at [neptunefire.com](http://www.neptunefire.com), or check them out on [Facebook](https://www.facebook.com/Neptune-Fire-Company-128101647275868/).
 <div class="fb-like" data-href="https://www.facebook.com/Neptune-Fire-Company-128101647275868/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
 
-<!--slideshow-->
+<!--slideshow TODO Resurrect
 <div class="fire slideshow">
 	<ul class="bxslider">
 		<li><img alt="fire slide" src="./files/img/fire_slide/img197196421.JPEG" /></li>

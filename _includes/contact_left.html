@@ -1,0 +1,12 @@
+<div class="widget-content">
+  <ul>
+  {% for contact_method in site.data.contact %}
+    <li>
+      <div class="row-title">
+        <h4>{{contact_method.KEY}}</h4>
+      </div>
+      <div class="row-value">{{contact_method.VALUE}}</div>
+    </li>
+	{% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,28 @@
+<div class="widget documents-widget">
+<div class="widget-inner">
+    <h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-papers"></i>
+    Recent Council Meeting Notes
+    </h3>
+    <div class="widget-content">
+    <ul class="document-list m-has-icons">
+
+        {% for YEAR_GROUP in site.data.meeting_minutes %}
+            {% if YEAR_GROUP.CURRENT_YEAR == true %}
+                {% for MONTH in YEAR_GROUP.YEAR_ITEMS limit:3 %}
+                    <li class="document">
+                    <div class="document-inner">
+                        <div class="document-icon" title="PDF File"><i class="fas fa-file-download"></i></div>
+                        <h4 class="document-title">
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ MONTH.LOCATION_PREFIX }}{{ MONTH.LABEL }}_{{ YEAR_GROUP.YEAR_LABEL }}.pdf">Meeting Minutes - {{ MONTH.LABEL }}</a>
+                        </h4>
+                    </div>
+                    </li>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <p class="show-all-btn"><a href="{{ site.url }}{{ site.baseurl }}meeting_minutes.html">See All Meeting Minutes Records</a></p>
+    </div>
+</div>
+</div>
+<!-- DOCUMENTS WIDGET : end -->

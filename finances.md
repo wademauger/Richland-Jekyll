@@ -1,26 +1,20 @@
 ---
 layout: default
+suppress_title: false
 title: Finances
-weight: 10
-active: true
-permalink: finances.html
 ---
 
-<script>
-  mixpanel.track("Finances Page");
-</script>
 
-# Finances
-
-| [2018 Financial Statement](./files/Financial_Statement_2018.pdf) |
-| [2018 Budget](./files/Budget_2018.pdf) |
-| [2017 Financial Statement](./files/Financial_Statement_2017a.pdf) |
-| [2017 Budget](./files/Budget_2017.pdf) |
-| [2016 Financial Statement](./files/Financial_Statement_2016.pdf) |
-| [2016 Budget](./files/Budget_2016.pdf) |
-| [2015 Financial Statement](./files/Financial_Statement_2015.pdf) |
-| [2015 Budget](./files/Budget_2015.pdf) |
-| [2014 Financial Statement](./files/Financial_Statement_2014.pdf) |
-| [2014 Budget](./files/Budget_2014.pdf) |
-| [2013 Financial Statement](./files/Financial_Statement_2013.pdf) |
-| [2012 Financials](./files/audit-2012.pdf) |
+<div class="card">
+  <div class="card-header finance-header">
+    Financial Records
+  </div>
+    <div id="collapse_{{ YEAR.YEAR_LABEL}}" class="collapse show">
+      <div class="card-body">
+  {% for RECORD in site.data.finances %}
+        <div class="document-icon" title="PDF File"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>
+        <a class="finance-item" href="{{ site.url }}{{ site.baseurl }}{{ MONTH.LOCATION_PREFIX }}{{ MONTH.LABEL }}_{{ YEAR.YEAR_LABEL }}.pdf">{{ RECORD.LABEL }}</a><br />
+  {% endfor %}
+      </div>
+    </div>
+</div>
